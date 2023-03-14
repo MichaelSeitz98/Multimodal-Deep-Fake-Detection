@@ -1,6 +1,5 @@
 # Multimodal Review Generation and Detection
 
-
 Online-Rezensionen tragen maßgeblich zur Kaufentscheidung von Konsument:innen bei.
 Allerdings sind die Echtheit und Authentizität dieser Rezensionen nicht immer gegeben.
 Teils lassen sich sog. Fake Reviews einfach identifizieren, aber teils ist dies auch nicht
