@@ -11,6 +11,7 @@
 01_Data/~$dataset_google_maps_reviews_v1.xlsx
 01_Data/archiv/dataset_google_maps_reviews_v1_test.xlsx
 01_Data/archiv/dataset_Google-Maps-Reviews-Scraper-task-1_2023-03-26_08-21-05-357.csv
+result/
 apikey_openai.txt
 apikey_openai_web.txt
 apikey_gpt.txt
