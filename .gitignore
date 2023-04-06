@@ -1,6 +1,8 @@
 01_Raw_Data/
 09_backup_archiv/*.xlsx
 09_backup_archiv/*.csv
+09_backup_archiv/*.txt
+09_backup_archiv/*.json
 result/
 apikey_openai.txt
 apikey_openai_web.txt
