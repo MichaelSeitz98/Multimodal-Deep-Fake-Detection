@@ -4,8 +4,4 @@
 09_backup_archiv/*.txt
 09_backup_archiv/*.json
 result/
-apikey_openai.txt
-apikey_openai_web.txt
-apikey_gpt.txt
-apikey_dreamstudio.txt
-apikey_dalle.txt
+apikey_*
