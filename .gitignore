@@ -3,5 +3,5 @@
 09_backup_archiv/*.csv
 09_backup_archiv/*.txt
 09_backup_archiv/*.json
-result/
+*.xlsx
 apikey_*
