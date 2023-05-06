@@ -2,7 +2,8 @@
 
 Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multi-modaler Ansatz verfolgt, der auf verschiedenen Modalitäten wie Text, Bild und Metadaten basiert.
 
-![Artefakt Übersicht](02_Images/graphics/artefact_uebersicht_v3.jpg)
+![Artefakt Übersicht](02_Images/graphics/artefact_uebersicht_v4.jpg)
+
 
 
 
