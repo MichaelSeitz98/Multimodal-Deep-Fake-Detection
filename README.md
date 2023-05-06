@@ -1,4 +1,4 @@
-# Mulitmodale Fake Review Detektion 
+# Erzeugung und Erkennung multimodaler Deepfakes bei Online Rezensionen
 
 Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multi-modaler Ansatz verfolgt, der auf verschiedenen Modalitäten wie Text, Bild und Metadaten basiert.
 
@@ -41,13 +41,14 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 
 ## Weitere Informationen zur Handhabung
 
-- Die künstlich generieten Bilder von Dalle-2 können über den die Datensätze `base_for_feature_extraction.csv` sowie `fake_gpt3_all_finetunes_sent__dalle_tab.csv` zugegriffen werden. Um das zu ermöglichen sind die Bilder im Ordner [02_Images/](02_Images/) gehostet. 
-- Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Hotel, Restaurant, Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier] (01_Data\raw_data\cols_activities.txt) alle Spallten für gescrapte Akititäten. 
+- Die künstlich generierten Bilder von DALL-E-2 können über den die Datensätze `base_for_feature_extraction.csv` sowie `fake_gpt3_all_finetunes_sent__dalle_tab.csv` zugegriffen werden. Um das zu ermöglichen sind die Bilder im Ordner [02_Images/](02_Images/) gehostet. 
+- Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Hotel, Restaurant, Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier] (01_Data\raw_data\cols_activities.txt) alle Spalten für gescrapte Aktivitäten. 
 - Es wurden mehrere Varianten von GPT3 Finetunes entwickelt und auf den Datensatz angewendet. Die hierfür benötigte Datensätze (inkl. inklusive Prompt und Prompt-Completions) sind unter [01_Data/finetuning/](01_Data/finetuning/) abgespeichert.
-- 
+- Nicht direkt verwendete Dateien, veraltete Dateien und verworfenen Ansätze bzw. Versuche sind im Ordner [09_outdated_archived_or_rejected_approaches] (09_outdated_archived_or_rejected_approaches) abgelegt. Auf diese Dateien kann ggf.  zukünftige Untersuchungen zurückgegriffen werden. Darunter fallen auch Ansätze mit anderen Technologien (Stable Diffusion, GPT2, GPT3.5 Turbo, AutoTrain), die letztendlich nicht verwendet wurden. Außerdem ist dort ein [Datensatz multimodaler Amazon-Reviews](09_outdated_archived_or_rejected_approaches\amazon\dataset_amazon_reviews_v1.csv) abgelegt, der nicht verwendet wurde. 
+
 ## Ergebnisse: 
 
-Die Ergebnisse der vegleichenden UNtersuchung in Abhängigkeit der Modalitäten und der drei verschiednenen verwendeten ML-Methoden XGBoost, Random Forest und TabNet sind in der folgednen Tabelle aufgelistet. 
+Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet sind in der folgenden Tabelle aufgelistet. 
 
 
 | Modalität(en)      | Model    | Accuracy | Precision | Recall | F1     | AUC    |
