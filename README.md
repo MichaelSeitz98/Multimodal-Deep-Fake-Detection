@@ -10,7 +10,7 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 1. `nb_generate_dataset.ipynb`: In diesem Notebook werden relevante Informationen aus den Daten extrahiert, Daten herausgefiltert und Basissätze (base_) generiert, die als Grundlage für weitere Verarbeitungsschritte dienen.
 
-2. `nb_generate_deepfaces.ipynb`: Auf Basis der Kategorie aus Notebook 1 werden hier auf allen Modalitäten Fake-Reviews generiert. Hier werden der echte Datensatz `base_....csv` und der gefälschte Datensatz `fake_base_gpt_3_...` zusammengeführt zu `base_fake_real.csv`. Dieser Datensatz dient als neue Ausgangsbasis für die Detektion.
+2. `nb_generate_deepfaces.ipynb`: Auf Basis der Kategorie aus Notebook 1 werden hier auf allen Modalitäten Fake-Reviews generiert. Hier werden der echte Datensatz `base_....csv` und der gefälschte Datensatz `fake_base_gpt_3_...` zusammengeführt zu `merged_fake_real.csv`. Dieser Datensatz dient als neue Ausgangsbasis für die Detektion.
 
 3. `nb_feature_extraction.ipynb`: Hier werden die Features für alle Modalitäten extrahiert und im Datensatz `features_enrichted[..].csv` gespeichert. Dieser Datensatz wird für die Detektion herangezogen.
 
@@ -24,3 +24,4 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 
 # Datensätze 
+
