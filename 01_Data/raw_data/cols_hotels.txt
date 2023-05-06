@@ -1,0 +1,323 @@
+additionalInfo/Amenities/0/Free Wi-Fi
+additionalInfo/Amenities/0/Paid Wi-Fi
+additionalInfo/Amenities/1/Breakfast
+additionalInfo/Amenities/1/Free breakfast
+additionalInfo/Amenities/1/Free parking
+additionalInfo/Amenities/1/Paid breakfast
+additionalInfo/Amenities/1/Paid parking
+additionalInfo/Amenities/2/Accessible
+additionalInfo/Amenities/2/Free parking
+additionalInfo/Amenities/2/Paid parking
+additionalInfo/Amenities/2/Parking
+additionalInfo/Amenities/2/Pool
+additionalInfo/Amenities/3/Accessible
+additionalInfo/Amenities/3/Air-conditioned
+additionalInfo/Amenities/3/Pool
+additionalInfo/Amenities/4/Air-conditioned
+additionalInfo/Amenities/4/Indoor and outdoor pool
+additionalInfo/Amenities/4/Indoor pool
+additionalInfo/Amenities/4/Kid-friendly
+additionalInfo/Amenities/4/Outdoor pool
+additionalInfo/Amenities/4/Pet-friendly
+additionalInfo/Amenities/4/Pool
+additionalInfo/Amenities/5/Air-conditioned
+additionalInfo/Amenities/5/Business center
+additionalInfo/Amenities/5/Fitness center
+additionalInfo/Amenities/5/Kid-friendly
+additionalInfo/Amenities/5/Pet-friendly
+additionalInfo/Amenities/5/Restaurant
+additionalInfo/Amenities/6/Airport shuttle
+additionalInfo/Amenities/6/Business center
+additionalInfo/Amenities/6/Fitness center
+additionalInfo/Amenities/6/Kid-friendly
+additionalInfo/Amenities/6/Laundry service
+additionalInfo/Amenities/6/Pet-friendly
+additionalInfo/Amenities/6/Restaurant
+additionalInfo/Amenities/6/Smoke-free
+additionalInfo/Amenities/7/Business center
+additionalInfo/Amenities/7/Fitness center
+additionalInfo/Amenities/7/Golf course
+additionalInfo/Amenities/7/Kid-friendly
+additionalInfo/Amenities/7/Pet-friendly
+additionalInfo/Amenities/7/Restaurant
+additionalInfo/Amenities/7/Room service
+additionalInfo/Amenities/8/Beach access
+additionalInfo/Amenities/8/Golf course
+additionalInfo/Amenities/8/Kid-friendly
+additionalInfo/Amenities/8/Kitchens in some rooms
+additionalInfo/Amenities/8/Pet-friendly
+additionalInfo/Amenities/8/Restaurant
+additionalInfo/Amenities/8/Room service
+additionalInfo/Amenities/8/Smoke-free
+additionalInfo/Amenities/9/Airport shuttle
+additionalInfo/Amenities/9/Beach access
+additionalInfo/Amenities/9/Fitness center
+additionalInfo/Amenities/9/Kid-friendly
+additionalInfo/Amenities/9/Restaurant
+additionalInfo/Amenities/9/Room service
+additionalInfo/Amenities/10/Airport shuttle
+additionalInfo/Amenities/10/Bar
+additionalInfo/Amenities/10/Fitness center
+additionalInfo/Amenities/10/Kid-friendly
+additionalInfo/Amenities/10/Kitchen in all rooms
+additionalInfo/Amenities/10/Restaurant
+additionalInfo/Amenities/10/Room service
+additionalInfo/Amenities/11/Airport shuttle
+additionalInfo/Amenities/11/Fitness center
+additionalInfo/Amenities/11/Golf course
+additionalInfo/Amenities/11/Hot tub
+additionalInfo/Amenities/11/Kid-friendly
+additionalInfo/Amenities/11/Restaurant
+additionalInfo/Amenities/11/Smoke-free
+additionalInfo/Amenities/12/Airport shuttle
+additionalInfo/Amenities/12/Fitness center
+additionalInfo/Amenities/12/Golf course
+additionalInfo/Amenities/12/Hot tub
+additionalInfo/Amenities/12/Restaurant
+additionalInfo/Amenities/12/Smoke-free
+additionalInfo/Amenities/13/Fitness center
+additionalInfo/Amenities/13/Golf course
+additionalInfo/Amenities/13/Hot tub
+additionalInfo/Amenities/13/Kitchens in some rooms
+additionalInfo/Amenities/13/Smoke-free
+additionalInfo/Amenities/13/Spa
+additionalInfo/Amenities/14/Airport shuttle
+additionalInfo/Amenities/14/Bar
+additionalInfo/Amenities/14/Fitness center
+additionalInfo/Amenities/14/Golf course
+additionalInfo/Amenities/14/Spa
+additionalInfo/Amenities/15/Bar
+additionalInfo/Amenities/15/Fitness center
+additionalInfo/Amenities/15/Hot tub
+additionalInfo/Amenities/15/Smoke-free
+additionalInfo/Amenities/16/Golf course
+additionalInfo/Amenities/16/Smoke-free
+additionalInfo/Amenities/16/Spa
+additionalInfo/Amenities/17/Bar
+additionalInfo/Amenities/17/Fitness center
+additionalInfo/Amenities/18/Bar
+additionalInfo/Amenities/18/Golf course
+additionalInfo/Amenities/18/Smoke-free
+additionalInfo/Amenities/19/Bar
+additionalInfo/Amenities/19/Smoke-free
+additionalInfo/Amenities/20/Smoke-free
+address
+categories/0
+categories/1
+categories/2
+categories/3
+categories/4
+categories/5
+categories/6
+categoryName
+checkInDate
+checkOutDate
+cid
+city
+claimThisBusiness
+countryCode
+description
+hotelStars
+imagesCount
+isLocalGuide
+likesCount
+locatedIn
+location/lat
+location/lng
+menu
+name
+neighborhood
+peopleAlsoSearch/0/category
+peopleAlsoSearch/1/category
+peopleAlsoSearch/2/category
+peopleAlsoSearch/3/category
+peopleAlsoSearch/4/category
+peopleAlsoSearch/5/category
+peopleAlsoSearch/6/category
+peopleAlsoSearch/7/category
+peopleAlsoSearch/8/category
+permanentlyClosed
+phone
+placeId
+placesTags/0/count
+placesTags/0/title
+placesTags/1/count
+placesTags/1/title
+placesTags/2/count
+placesTags/2/title
+placesTags/3/count
+placesTags/3/title
+placesTags/4/count
+placesTags/4/title
+placesTags/5/count
+placesTags/5/title
+placesTags/6/count
+placesTags/6/title
+plusCode
+postalCode
+price
+publishAt
+publishedAtDate
+questionsAndAnswers/answer
+questionsAndAnswers/answerDate
+questionsAndAnswers/answeredBy/name
+questionsAndAnswers/answeredBy/url
+questionsAndAnswers/askDate
+questionsAndAnswers/askedBy/name
+questionsAndAnswers/askedBy/url
+questionsAndAnswers/question
+rating
+responseFromOwnerDate
+responseFromOwnerText
+reviewId
+reviewImageUrls/0
+reviewImageUrls/1
+reviewImageUrls/2
+reviewImageUrls/3
+reviewImageUrls/4
+reviewImageUrls/5
+reviewImageUrls/6
+reviewImageUrls/7
+reviewImageUrls/8
+reviewImageUrls/9
+reviewImageUrls/10
+reviewImageUrls/11
+reviewImageUrls/12
+reviewImageUrls/13
+reviewImageUrls/14
+reviewImageUrls/15
+reviewImageUrls/16
+reviewImageUrls/17
+reviewImageUrls/18
+reviewImageUrls/19
+reviewImageUrls/20
+reviewImageUrls/21
+reviewImageUrls/22
+reviewImageUrls/23
+reviewImageUrls/24
+reviewImageUrls/25
+reviewImageUrls/26
+reviewImageUrls/27
+reviewImageUrls/28
+reviewImageUrls/29
+reviewImageUrls/30
+reviewImageUrls/31
+reviewImageUrls/32
+reviewImageUrls/33
+reviewImageUrls/34
+reviewImageUrls/35
+reviewImageUrls/36
+reviewImageUrls/37
+reviewImageUrls/38
+reviewImageUrls/39
+reviewImageUrls/40
+reviewImageUrls/41
+reviewImageUrls/42
+reviewImageUrls/43
+reviewImageUrls/44
+reviewImageUrls/45
+reviewImageUrls/46
+reviewImageUrls/47
+reviewImageUrls/48
+reviewImageUrls/49
+reviewUrl
+reviewerId
+reviewerNumberOfReviews
+reviewerPhotoUrl
+reviewerUrl
+reviewsCount
+reviewsDistribution/fiveStar
+reviewsDistribution/fourStar
+reviewsDistribution/oneStar
+reviewsDistribution/threeStar
+reviewsDistribution/twoStar
+reviewsTags/0/count
+reviewsTags/0/title
+reviewsTags/1/count
+reviewsTags/1/title
+reviewsTags/2/count
+reviewsTags/2/title
+reviewsTags/3/count
+reviewsTags/3/title
+reviewsTags/4/count
+reviewsTags/4/title
+reviewsTags/5/count
+reviewsTags/5/title
+reviewsTags/6/count
+reviewsTags/6/title
+reviewsTags/7/count
+reviewsTags/7/title
+reviewsTags/8/count
+reviewsTags/8/title
+reviewsTags/9/count
+reviewsTags/9/title
+scrapedAt
+similarHotelsNearby/0/description
+similarHotelsNearby/0/name
+similarHotelsNearby/0/price
+similarHotelsNearby/0/rating
+similarHotelsNearby/0/reviews
+similarHotelsNearby/1/description
+similarHotelsNearby/1/name
+similarHotelsNearby/1/price
+similarHotelsNearby/1/rating
+similarHotelsNearby/1/reviews
+similarHotelsNearby/2/description
+similarHotelsNearby/2/name
+similarHotelsNearby/2/price
+similarHotelsNearby/2/rating
+similarHotelsNearby/2/reviews
+similarHotelsNearby/3/description
+similarHotelsNearby/3/name
+similarHotelsNearby/3/price
+similarHotelsNearby/3/rating
+similarHotelsNearby/3/reviews
+similarHotelsNearby/4/description
+similarHotelsNearby/4/name
+similarHotelsNearby/4/price
+similarHotelsNearby/4/rating
+similarHotelsNearby/4/reviews
+similarHotelsNearby/5/description
+similarHotelsNearby/5/name
+similarHotelsNearby/5/price
+similarHotelsNearby/5/rating
+similarHotelsNearby/5/reviews
+similarHotelsNearby/6/description
+similarHotelsNearby/6/name
+similarHotelsNearby/6/price
+similarHotelsNearby/6/rating
+similarHotelsNearby/6/reviews
+similarHotelsNearby/7/description
+similarHotelsNearby/7/name
+similarHotelsNearby/7/price
+similarHotelsNearby/7/rating
+similarHotelsNearby/7/reviews
+similarHotelsNearby/8/description
+similarHotelsNearby/8/name
+similarHotelsNearby/8/price
+similarHotelsNearby/8/rating
+similarHotelsNearby/8/reviews
+similarHotelsNearby/9/description
+similarHotelsNearby/9/name
+similarHotelsNearby/9/price
+similarHotelsNearby/9/rating
+similarHotelsNearby/9/reviews
+stars
+state
+street
+subTitle
+temporarilyClosed
+text
+title
+totalScore
+updatesFromCustomers/language
+updatesFromCustomers/media/0/link
+updatesFromCustomers/media/0/postDate
+updatesFromCustomers/postDate
+updatesFromCustomers/postedBy/name
+updatesFromCustomers/postedBy/title
+updatesFromCustomers/postedBy/totalReviews
+updatesFromCustomers/postedBy/url
+updatesFromCustomers/text
+url
+website

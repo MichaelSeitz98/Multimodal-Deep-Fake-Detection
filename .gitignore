@@ -1,6 +1,4 @@
-01_Data/amazon
-01_Data/finetuning
-01_Data/raw_data
+01_Data/raw_data/*.csv
 09_backup_archiv/*.xlsx
 09_backup_archiv/*.csv
 09_backup_archiv/*.txt

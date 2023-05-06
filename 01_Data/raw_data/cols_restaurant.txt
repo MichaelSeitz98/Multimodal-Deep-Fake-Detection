@@ -1,0 +1,643 @@
+additionalInfo/Accessibility/0/Wheelchair accessible elevator
+additionalInfo/Accessibility/0/Wheelchair accessible entrance
+additionalInfo/Accessibility/1/Wheelchair accessible entrance
+additionalInfo/Accessibility/1/Wheelchair accessible parking lot
+additionalInfo/Accessibility/1/Wheelchair accessible restroom
+additionalInfo/Accessibility/2/Wheelchair accessible parking lot
+additionalInfo/Accessibility/2/Wheelchair accessible restroom
+additionalInfo/Accessibility/2/Wheelchair accessible seating
+additionalInfo/Accessibility/3/Wheelchair accessible restroom
+additionalInfo/Accessibility/3/Wheelchair accessible seating
+additionalInfo/Accessibility/4/Wheelchair accessible seating
+additionalInfo/Amenities/0/Bar onsite
+additionalInfo/Amenities/0/Good for kids
+additionalInfo/Amenities/1/Good for kids
+additionalInfo/Amenities/1/High chairs
+additionalInfo/Amenities/1/Restroom
+additionalInfo/Amenities/2/High chairs
+additionalInfo/Amenities/2/Restroom
+additionalInfo/Amenities/3/Free Wi-Fi
+additionalInfo/Amenities/3/Restroom
+additionalInfo/Amenities/4/Free Wi-Fi
+additionalInfo/Atmosphere/0/Casual
+additionalInfo/Atmosphere/0/Cozy
+additionalInfo/Atmosphere/1/Cozy
+additionalInfo/Atmosphere/1/Romantic
+additionalInfo/Atmosphere/2/Historic
+additionalInfo/Atmosphere/2/Romantic
+additionalInfo/Atmosphere/2/Trending
+additionalInfo/Atmosphere/2/Upscale
+additionalInfo/Atmosphere/3/Romantic
+additionalInfo/Atmosphere/3/Upscale
+additionalInfo/Crowd/0/College students
+additionalInfo/Crowd/0/Family-friendly
+additionalInfo/Crowd/0/Groups
+additionalInfo/Crowd/1/Family-friendly
+additionalInfo/Crowd/1/Groups
+additionalInfo/Crowd/1/Tourists
+additionalInfo/Crowd/2/Groups
+additionalInfo/Crowd/2/LGBTQ+ friendly
+additionalInfo/Crowd/2/Tourists
+additionalInfo/Crowd/3/LGBTQ+ friendly
+additionalInfo/Crowd/3/Tourists
+additionalInfo/Crowd/3/Transgender safespace
+additionalInfo/Crowd/4/Tourists
+additionalInfo/Crowd/4/Transgender safespace
+additionalInfo/Crowd/5/Transgender safespace
+additionalInfo/Dining options/0/Breakfast
+additionalInfo/Dining options/0/Brunch
+additionalInfo/Dining options/0/Lunch
+additionalInfo/Dining options/1/Brunch
+additionalInfo/Dining options/1/Dinner
+additionalInfo/Dining options/1/Lunch
+additionalInfo/Dining options/2/Catering
+additionalInfo/Dining options/2/Dessert
+additionalInfo/Dining options/2/Dinner
+additionalInfo/Dining options/2/Lunch
+additionalInfo/Dining options/3/Catering
+additionalInfo/Dining options/3/Counter service
+additionalInfo/Dining options/3/Dessert
+additionalInfo/Dining options/3/Dinner
+additionalInfo/Dining options/3/Seating
+additionalInfo/Dining options/4/Catering
+additionalInfo/Dining options/4/Dessert
+additionalInfo/Dining options/4/Seating
+additionalInfo/Dining options/5/Dessert
+additionalInfo/Dining options/5/Seating
+additionalInfo/Dining options/6/Seating
+additionalInfo/From the business/0/Identifies as Black-owned
+additionalInfo/From the business/1/Identifies as women-owned
+additionalInfo/Highlights/0/Fast service
+additionalInfo/Highlights/0/Great cocktails
+additionalInfo/Highlights/0/Great coffee
+additionalInfo/Highlights/0/Great dessert
+additionalInfo/Highlights/1/Fireplace
+additionalInfo/Highlights/1/Great cocktails
+additionalInfo/Highlights/1/Great coffee
+additionalInfo/Highlights/1/Great dessert
+additionalInfo/Highlights/1/Great tea selection
+additionalInfo/Highlights/2/Great coffee
+additionalInfo/Highlights/2/Great dessert
+additionalInfo/Highlights/2/Great tea selection
+additionalInfo/Highlights/2/Serves local specialty
+additionalInfo/Highlights/3/Great dessert
+additionalInfo/Offerings/0/Alcohol
+additionalInfo/Offerings/0/All you can eat
+additionalInfo/Offerings/0/Coffee
+additionalInfo/Offerings/0/Comfort food
+additionalInfo/Offerings/1/Beer
+additionalInfo/Offerings/1/Coffee
+additionalInfo/Offerings/1/Comfort food
+additionalInfo/Offerings/1/Kids' menu
+additionalInfo/Offerings/1/Late-night food
+additionalInfo/Offerings/2/Cocktails
+additionalInfo/Offerings/2/Coffee
+additionalInfo/Offerings/2/Comfort food
+additionalInfo/Offerings/2/Halal food
+additionalInfo/Offerings/2/Kids' menu
+additionalInfo/Offerings/2/Late-night food
+additionalInfo/Offerings/2/Quick bite
+additionalInfo/Offerings/3/Coffee
+additionalInfo/Offerings/3/Comfort food
+additionalInfo/Offerings/3/Halal food
+additionalInfo/Offerings/3/Healthy options
+additionalInfo/Offerings/3/Organic dishes
+additionalInfo/Offerings/3/Quick bite
+additionalInfo/Offerings/3/Small plates
+additionalInfo/Offerings/3/Vegetarian options
+additionalInfo/Offerings/4/Comfort food
+additionalInfo/Offerings/4/Happy hour drinks
+additionalInfo/Offerings/4/Hard liquor
+additionalInfo/Offerings/4/Healthy options
+additionalInfo/Offerings/4/Quick bite
+additionalInfo/Offerings/4/Small plates
+additionalInfo/Offerings/4/Vegetarian options
+additionalInfo/Offerings/5/Happy hour drinks
+additionalInfo/Offerings/5/Happy hour food
+additionalInfo/Offerings/5/Hard liquor
+additionalInfo/Offerings/5/Kids' menu
+additionalInfo/Offerings/5/Quick bite
+additionalInfo/Offerings/5/Small plates
+additionalInfo/Offerings/5/Vegan options
+additionalInfo/Offerings/6/Happy hour food
+additionalInfo/Offerings/6/Hard liquor
+additionalInfo/Offerings/6/Healthy options
+additionalInfo/Offerings/6/Kids' menu
+additionalInfo/Offerings/6/Quick bite
+additionalInfo/Offerings/6/Salad bar
+additionalInfo/Offerings/6/Vegetarian options
+additionalInfo/Offerings/7/Hard liquor
+additionalInfo/Offerings/7/Healthy options
+additionalInfo/Offerings/7/Kids' menu
+additionalInfo/Offerings/7/Late-night food
+additionalInfo/Offerings/7/Quick bite
+additionalInfo/Offerings/7/Small plates
+additionalInfo/Offerings/8/Healthy options
+additionalInfo/Offerings/8/Kids' menu
+additionalInfo/Offerings/8/Quick bite
+additionalInfo/Offerings/8/Small plates
+additionalInfo/Offerings/8/Vegan options
+additionalInfo/Offerings/8/Vegetarian options
+additionalInfo/Offerings/8/Wine
+additionalInfo/Offerings/9/Kids' menu
+additionalInfo/Offerings/9/Quick bite
+additionalInfo/Offerings/9/Small plates
+additionalInfo/Offerings/9/Vegan options
+additionalInfo/Offerings/9/Vegetarian options
+additionalInfo/Offerings/9/Wine
+additionalInfo/Offerings/10/Quick bite
+additionalInfo/Offerings/10/Small plates
+additionalInfo/Offerings/10/Vegetarian options
+additionalInfo/Offerings/10/Wine
+additionalInfo/Offerings/11/Small plates
+additionalInfo/Offerings/11/Vegetarian options
+additionalInfo/Offerings/11/Wine
+additionalInfo/Offerings/12/Wine
+additionalInfo/Payments/0/Cash-only
+additionalInfo/Payments/0/Debit cards
+additionalInfo/Payments/0/NFC mobile payments
+additionalInfo/Payments/1/Credit cards
+additionalInfo/Payments/1/NFC mobile payments
+additionalInfo/Payments/2/Credit cards
+additionalInfo/Planning/0/Accepts reservations
+additionalInfo/Planning/0/Dinner reservations recommended
+additionalInfo/Planning/0/Lunch reservations recommended
+additionalInfo/Planning/0/Usually a wait
+additionalInfo/Planning/1/Accepts reservations
+additionalInfo/Planning/1/Dinner reservations recommended
+additionalInfo/Planning/2/Accepts reservations
+additionalInfo/Planning/3/Usually a wait
+additionalInfo/Popular for/0/Breakfast
+additionalInfo/Popular for/0/Lunch
+additionalInfo/Popular for/1/Dinner
+additionalInfo/Popular for/1/Lunch
+additionalInfo/Popular for/2/Dinner
+additionalInfo/Popular for/2/Solo dining
+additionalInfo/Popular for/3/Solo dining
+additionalInfo/Service options/0/Curbside pickup
+additionalInfo/Service options/0/Delivery
+additionalInfo/Service options/0/Outdoor seating
+additionalInfo/Service options/0/Takeout
+additionalInfo/Service options/1/Curbside pickup
+additionalInfo/Service options/1/Delivery
+additionalInfo/Service options/1/Dine-in
+additionalInfo/Service options/1/Drive-through
+additionalInfo/Service options/1/No-contact delivery
+additionalInfo/Service options/1/Takeout
+additionalInfo/Service options/2/Delivery
+additionalInfo/Service options/2/Dine-in
+additionalInfo/Service options/2/No-contact delivery
+additionalInfo/Service options/2/Takeout
+additionalInfo/Service options/3/Delivery
+additionalInfo/Service options/3/Dine-in
+additionalInfo/Service options/3/Takeout
+additionalInfo/Service options/4/Delivery
+additionalInfo/Service options/4/Dine-in
+additionalInfo/Service options/4/Takeout
+additionalInfo/Service options/5/Dine-in
+address
+categories/0
+categories/1
+categories/2
+categories/3
+categories/4
+categories/5
+categories/6
+categoryName
+cid
+city
+claimThisBusiness
+countryCode
+description
+googleFoodUrl
+imagesCount
+isLocalGuide
+likesCount
+locatedIn
+location/lat
+location/lng
+menu
+name
+neighborhood
+openingHours/0/day
+openingHours/0/hours
+openingHours/1/day
+openingHours/1/hours
+openingHours/2/day
+openingHours/2/hours
+openingHours/3/day
+openingHours/3/hours
+openingHours/4/day
+openingHours/4/hours
+openingHours/5/day
+openingHours/5/hours
+openingHours/6/day
+openingHours/6/hours
+orderBy/0/name
+orderBy/0/url
+orderBy/1/name
+orderBy/1/url
+peopleAlsoSearch/0/category
+peopleAlsoSearch/0/reviewsCount
+peopleAlsoSearch/0/title
+peopleAlsoSearch/0/totalScore
+peopleAlsoSearch/1/category
+peopleAlsoSearch/1/reviewsCount
+peopleAlsoSearch/1/title
+peopleAlsoSearch/1/totalScore
+peopleAlsoSearch/2/category
+peopleAlsoSearch/2/reviewsCount
+peopleAlsoSearch/2/title
+peopleAlsoSearch/2/totalScore
+peopleAlsoSearch/3/category
+peopleAlsoSearch/3/reviewsCount
+peopleAlsoSearch/3/title
+peopleAlsoSearch/3/totalScore
+peopleAlsoSearch/4/category
+peopleAlsoSearch/4/reviewsCount
+peopleAlsoSearch/4/title
+peopleAlsoSearch/4/totalScore
+permanentlyClosed
+phone
+placeId
+plusCode
+popularTimesHistogram/Fr/0/hour
+popularTimesHistogram/Fr/0/occupancyPercent
+popularTimesHistogram/Fr/1/hour
+popularTimesHistogram/Fr/1/occupancyPercent
+popularTimesHistogram/Fr/2/hour
+popularTimesHistogram/Fr/2/occupancyPercent
+popularTimesHistogram/Fr/3/hour
+popularTimesHistogram/Fr/3/occupancyPercent
+popularTimesHistogram/Fr/4/hour
+popularTimesHistogram/Fr/4/occupancyPercent
+popularTimesHistogram/Fr/5/hour
+popularTimesHistogram/Fr/5/occupancyPercent
+popularTimesHistogram/Fr/6/hour
+popularTimesHistogram/Fr/6/occupancyPercent
+popularTimesHistogram/Fr/7/hour
+popularTimesHistogram/Fr/7/occupancyPercent
+popularTimesHistogram/Fr/8/hour
+popularTimesHistogram/Fr/8/occupancyPercent
+popularTimesHistogram/Fr/9/hour
+popularTimesHistogram/Fr/9/occupancyPercent
+popularTimesHistogram/Fr/10/hour
+popularTimesHistogram/Fr/10/occupancyPercent
+popularTimesHistogram/Fr/11/hour
+popularTimesHistogram/Fr/11/occupancyPercent
+popularTimesHistogram/Fr/12/hour
+popularTimesHistogram/Fr/12/occupancyPercent
+popularTimesHistogram/Fr/13/hour
+popularTimesHistogram/Fr/13/occupancyPercent
+popularTimesHistogram/Fr/14/hour
+popularTimesHistogram/Fr/14/occupancyPercent
+popularTimesHistogram/Fr/15/hour
+popularTimesHistogram/Fr/15/occupancyPercent
+popularTimesHistogram/Fr/16/hour
+popularTimesHistogram/Fr/16/occupancyPercent
+popularTimesHistogram/Fr/17/hour
+popularTimesHistogram/Fr/17/occupancyPercent
+popularTimesHistogram/Fr/18/hour
+popularTimesHistogram/Fr/18/occupancyPercent
+popularTimesHistogram/Fr/19/hour
+popularTimesHistogram/Fr/19/occupancyPercent
+popularTimesHistogram/Fr/20/hour
+popularTimesHistogram/Fr/20/occupancyPercent
+popularTimesHistogram/Mo/0/hour
+popularTimesHistogram/Mo/0/occupancyPercent
+popularTimesHistogram/Mo/1/hour
+popularTimesHistogram/Mo/1/occupancyPercent
+popularTimesHistogram/Mo/2/hour
+popularTimesHistogram/Mo/2/occupancyPercent
+popularTimesHistogram/Mo/3/hour
+popularTimesHistogram/Mo/3/occupancyPercent
+popularTimesHistogram/Mo/4/hour
+popularTimesHistogram/Mo/4/occupancyPercent
+popularTimesHistogram/Mo/5/hour
+popularTimesHistogram/Mo/5/occupancyPercent
+popularTimesHistogram/Mo/6/hour
+popularTimesHistogram/Mo/6/occupancyPercent
+popularTimesHistogram/Mo/7/hour
+popularTimesHistogram/Mo/7/occupancyPercent
+popularTimesHistogram/Mo/8/hour
+popularTimesHistogram/Mo/8/occupancyPercent
+popularTimesHistogram/Mo/9/hour
+popularTimesHistogram/Mo/9/occupancyPercent
+popularTimesHistogram/Mo/10/hour
+popularTimesHistogram/Mo/10/occupancyPercent
+popularTimesHistogram/Mo/11/hour
+popularTimesHistogram/Mo/11/occupancyPercent
+popularTimesHistogram/Mo/12/hour
+popularTimesHistogram/Mo/12/occupancyPercent
+popularTimesHistogram/Mo/13/hour
+popularTimesHistogram/Mo/13/occupancyPercent
+popularTimesHistogram/Mo/14/hour
+popularTimesHistogram/Mo/14/occupancyPercent
+popularTimesHistogram/Mo/15/hour
+popularTimesHistogram/Mo/15/occupancyPercent
+popularTimesHistogram/Mo/16/hour
+popularTimesHistogram/Mo/16/occupancyPercent
+popularTimesHistogram/Mo/17/hour
+popularTimesHistogram/Mo/17/occupancyPercent
+popularTimesHistogram/Mo/18/hour
+popularTimesHistogram/Mo/18/occupancyPercent
+popularTimesHistogram/Mo/19/hour
+popularTimesHistogram/Mo/19/occupancyPercent
+popularTimesHistogram/Sa/0/hour
+popularTimesHistogram/Sa/0/occupancyPercent
+popularTimesHistogram/Sa/1/hour
+popularTimesHistogram/Sa/1/occupancyPercent
+popularTimesHistogram/Sa/2/hour
+popularTimesHistogram/Sa/2/occupancyPercent
+popularTimesHistogram/Sa/3/hour
+popularTimesHistogram/Sa/3/occupancyPercent
+popularTimesHistogram/Sa/4/hour
+popularTimesHistogram/Sa/4/occupancyPercent
+popularTimesHistogram/Sa/5/hour
+popularTimesHistogram/Sa/5/occupancyPercent
+popularTimesHistogram/Sa/6/hour
+popularTimesHistogram/Sa/6/occupancyPercent
+popularTimesHistogram/Sa/7/hour
+popularTimesHistogram/Sa/7/occupancyPercent
+popularTimesHistogram/Sa/8/hour
+popularTimesHistogram/Sa/8/occupancyPercent
+popularTimesHistogram/Sa/9/hour
+popularTimesHistogram/Sa/9/occupancyPercent
+popularTimesHistogram/Sa/10/hour
+popularTimesHistogram/Sa/10/occupancyPercent
+popularTimesHistogram/Sa/11/hour
+popularTimesHistogram/Sa/11/occupancyPercent
+popularTimesHistogram/Sa/12/hour
+popularTimesHistogram/Sa/12/occupancyPercent
+popularTimesHistogram/Sa/13/hour
+popularTimesHistogram/Sa/13/occupancyPercent
+popularTimesHistogram/Sa/14/hour
+popularTimesHistogram/Sa/14/occupancyPercent
+popularTimesHistogram/Sa/15/hour
+popularTimesHistogram/Sa/15/occupancyPercent
+popularTimesHistogram/Sa/16/hour
+popularTimesHistogram/Sa/16/occupancyPercent
+popularTimesHistogram/Sa/17/hour
+popularTimesHistogram/Sa/17/occupancyPercent
+popularTimesHistogram/Sa/18/hour
+popularTimesHistogram/Sa/18/occupancyPercent
+popularTimesHistogram/Sa/19/hour
+popularTimesHistogram/Sa/19/occupancyPercent
+popularTimesHistogram/Sa/20/hour
+popularTimesHistogram/Sa/20/occupancyPercent
+popularTimesHistogram/Su/0/hour
+popularTimesHistogram/Su/0/occupancyPercent
+popularTimesHistogram/Su/1/hour
+popularTimesHistogram/Su/1/occupancyPercent
+popularTimesHistogram/Su/2/hour
+popularTimesHistogram/Su/2/occupancyPercent
+popularTimesHistogram/Su/3/hour
+popularTimesHistogram/Su/3/occupancyPercent
+popularTimesHistogram/Su/4/hour
+popularTimesHistogram/Su/4/occupancyPercent
+popularTimesHistogram/Su/5/hour
+popularTimesHistogram/Su/5/occupancyPercent
+popularTimesHistogram/Su/6/hour
+popularTimesHistogram/Su/6/occupancyPercent
+popularTimesHistogram/Su/7/hour
+popularTimesHistogram/Su/7/occupancyPercent
+popularTimesHistogram/Su/8/hour
+popularTimesHistogram/Su/8/occupancyPercent
+popularTimesHistogram/Su/9/hour
+popularTimesHistogram/Su/9/occupancyPercent
+popularTimesHistogram/Su/10/hour
+popularTimesHistogram/Su/10/occupancyPercent
+popularTimesHistogram/Su/11/hour
+popularTimesHistogram/Su/11/occupancyPercent
+popularTimesHistogram/Su/12/hour
+popularTimesHistogram/Su/12/occupancyPercent
+popularTimesHistogram/Su/13/hour
+popularTimesHistogram/Su/13/occupancyPercent
+popularTimesHistogram/Su/14/hour
+popularTimesHistogram/Su/14/occupancyPercent
+popularTimesHistogram/Su/15/hour
+popularTimesHistogram/Su/15/occupancyPercent
+popularTimesHistogram/Su/16/hour
+popularTimesHistogram/Su/16/occupancyPercent
+popularTimesHistogram/Su/17/hour
+popularTimesHistogram/Su/17/occupancyPercent
+popularTimesHistogram/Su/18/hour
+popularTimesHistogram/Su/18/occupancyPercent
+popularTimesHistogram/Su/19/hour
+popularTimesHistogram/Su/19/occupancyPercent
+popularTimesHistogram/Th/0/hour
+popularTimesHistogram/Th/0/occupancyPercent
+popularTimesHistogram/Th/1/hour
+popularTimesHistogram/Th/1/occupancyPercent
+popularTimesHistogram/Th/2/hour
+popularTimesHistogram/Th/2/occupancyPercent
+popularTimesHistogram/Th/3/hour
+popularTimesHistogram/Th/3/occupancyPercent
+popularTimesHistogram/Th/4/hour
+popularTimesHistogram/Th/4/occupancyPercent
+popularTimesHistogram/Th/5/hour
+popularTimesHistogram/Th/5/occupancyPercent
+popularTimesHistogram/Th/6/hour
+popularTimesHistogram/Th/6/occupancyPercent
+popularTimesHistogram/Th/7/hour
+popularTimesHistogram/Th/7/occupancyPercent
+popularTimesHistogram/Th/8/hour
+popularTimesHistogram/Th/8/occupancyPercent
+popularTimesHistogram/Th/9/hour
+popularTimesHistogram/Th/9/occupancyPercent
+popularTimesHistogram/Th/10/hour
+popularTimesHistogram/Th/10/occupancyPercent
+popularTimesHistogram/Th/11/hour
+popularTimesHistogram/Th/11/occupancyPercent
+popularTimesHistogram/Th/12/hour
+popularTimesHistogram/Th/12/occupancyPercent
+popularTimesHistogram/Th/13/hour
+popularTimesHistogram/Th/13/occupancyPercent
+popularTimesHistogram/Th/14/hour
+popularTimesHistogram/Th/14/occupancyPercent
+popularTimesHistogram/Th/15/hour
+popularTimesHistogram/Th/15/occupancyPercent
+popularTimesHistogram/Th/16/hour
+popularTimesHistogram/Th/16/occupancyPercent
+popularTimesHistogram/Th/17/hour
+popularTimesHistogram/Th/17/occupancyPercent
+popularTimesHistogram/Th/18/hour
+popularTimesHistogram/Th/18/occupancyPercent
+popularTimesHistogram/Th/19/hour
+popularTimesHistogram/Th/19/occupancyPercent
+popularTimesHistogram/Th/20/hour
+popularTimesHistogram/Th/20/occupancyPercent
+popularTimesHistogram/Tu/0/hour
+popularTimesHistogram/Tu/0/occupancyPercent
+popularTimesHistogram/Tu/1/hour
+popularTimesHistogram/Tu/1/occupancyPercent
+popularTimesHistogram/Tu/2/hour
+popularTimesHistogram/Tu/2/occupancyPercent
+popularTimesHistogram/Tu/3/hour
+popularTimesHistogram/Tu/3/occupancyPercent
+popularTimesHistogram/Tu/4/hour
+popularTimesHistogram/Tu/4/occupancyPercent
+popularTimesHistogram/Tu/5/hour
+popularTimesHistogram/Tu/5/occupancyPercent
+popularTimesHistogram/Tu/6/hour
+popularTimesHistogram/Tu/6/occupancyPercent
+popularTimesHistogram/Tu/7/hour
+popularTimesHistogram/Tu/7/occupancyPercent
+popularTimesHistogram/Tu/8/hour
+popularTimesHistogram/Tu/8/occupancyPercent
+popularTimesHistogram/Tu/9/hour
+popularTimesHistogram/Tu/9/occupancyPercent
+popularTimesHistogram/Tu/10/hour
+popularTimesHistogram/Tu/10/occupancyPercent
+popularTimesHistogram/Tu/11/hour
+popularTimesHistogram/Tu/11/occupancyPercent
+popularTimesHistogram/Tu/12/hour
+popularTimesHistogram/Tu/12/occupancyPercent
+popularTimesHistogram/Tu/13/hour
+popularTimesHistogram/Tu/13/occupancyPercent
+popularTimesHistogram/Tu/14/hour
+popularTimesHistogram/Tu/14/occupancyPercent
+popularTimesHistogram/Tu/15/hour
+popularTimesHistogram/Tu/15/occupancyPercent
+popularTimesHistogram/Tu/16/hour
+popularTimesHistogram/Tu/16/occupancyPercent
+popularTimesHistogram/Tu/17/hour
+popularTimesHistogram/Tu/17/occupancyPercent
+popularTimesHistogram/Tu/18/hour
+popularTimesHistogram/Tu/18/occupancyPercent
+popularTimesHistogram/Tu/19/hour
+popularTimesHistogram/Tu/19/occupancyPercent
+popularTimesHistogram/We/0/hour
+popularTimesHistogram/We/0/occupancyPercent
+popularTimesHistogram/We/1/hour
+popularTimesHistogram/We/1/occupancyPercent
+popularTimesHistogram/We/2/hour
+popularTimesHistogram/We/2/occupancyPercent
+popularTimesHistogram/We/3/hour
+popularTimesHistogram/We/3/occupancyPercent
+popularTimesHistogram/We/4/hour
+popularTimesHistogram/We/4/occupancyPercent
+popularTimesHistogram/We/5/hour
+popularTimesHistogram/We/5/occupancyPercent
+popularTimesHistogram/We/6/hour
+popularTimesHistogram/We/6/occupancyPercent
+popularTimesHistogram/We/7/hour
+popularTimesHistogram/We/7/occupancyPercent
+popularTimesHistogram/We/8/hour
+popularTimesHistogram/We/8/occupancyPercent
+popularTimesHistogram/We/9/hour
+popularTimesHistogram/We/9/occupancyPercent
+popularTimesHistogram/We/10/hour
+popularTimesHistogram/We/10/occupancyPercent
+popularTimesHistogram/We/11/hour
+popularTimesHistogram/We/11/occupancyPercent
+popularTimesHistogram/We/12/hour
+popularTimesHistogram/We/12/occupancyPercent
+popularTimesHistogram/We/13/hour
+popularTimesHistogram/We/13/occupancyPercent
+popularTimesHistogram/We/14/hour
+popularTimesHistogram/We/14/occupancyPercent
+popularTimesHistogram/We/15/hour
+popularTimesHistogram/We/15/occupancyPercent
+popularTimesHistogram/We/16/hour
+popularTimesHistogram/We/16/occupancyPercent
+popularTimesHistogram/We/17/hour
+popularTimesHistogram/We/17/occupancyPercent
+popularTimesHistogram/We/18/hour
+popularTimesHistogram/We/18/occupancyPercent
+popularTimesHistogram/We/19/hour
+popularTimesHistogram/We/19/occupancyPercent
+popularTimesLivePercent
+popularTimesLiveText
+postalCode
+price
+publishAt
+publishedAtDate
+questionsAndAnswers/answer
+questionsAndAnswers/answerDate
+questionsAndAnswers/answeredBy/name
+questionsAndAnswers/answeredBy/url
+questionsAndAnswers/askDate
+questionsAndAnswers/askedBy/name
+questionsAndAnswers/askedBy/url
+questionsAndAnswers/question
+rating
+reserveTableUrl
+responseFromOwnerDate
+responseFromOwnerText
+reviewId
+reviewImageUrls/0
+reviewImageUrls/1
+reviewImageUrls/2
+reviewImageUrls/3
+reviewImageUrls/4
+reviewImageUrls/5
+reviewImageUrls/6
+reviewImageUrls/7
+reviewImageUrls/8
+reviewImageUrls/9
+reviewImageUrls/10
+reviewImageUrls/11
+reviewImageUrls/12
+reviewImageUrls/13
+reviewImageUrls/14
+reviewImageUrls/15
+reviewImageUrls/16
+reviewImageUrls/17
+reviewImageUrls/18
+reviewImageUrls/19
+reviewImageUrls/20
+reviewImageUrls/21
+reviewImageUrls/22
+reviewImageUrls/23
+reviewImageUrls/24
+reviewImageUrls/25
+reviewUrl
+reviewerId
+reviewerNumberOfReviews
+reviewerPhotoUrl
+reviewerUrl
+reviewsCount
+reviewsDistribution/fiveStar
+reviewsDistribution/fourStar
+reviewsDistribution/oneStar
+reviewsDistribution/threeStar
+reviewsDistribution/twoStar
+reviewsTags/0/count
+reviewsTags/0/title
+reviewsTags/1/count
+reviewsTags/1/title
+reviewsTags/2/count
+reviewsTags/2/title
+reviewsTags/3/count
+reviewsTags/3/title
+reviewsTags/4/count
+reviewsTags/4/title
+reviewsTags/5/count
+reviewsTags/5/title
+reviewsTags/6/count
+reviewsTags/6/title
+reviewsTags/7/count
+reviewsTags/7/title
+reviewsTags/8/count
+reviewsTags/8/title
+reviewsTags/9/count
+reviewsTags/9/title
+scrapedAt
+stars
+state
+street
+subTitle
+temporarilyClosed
+text
+title
+totalScore
+updatesFromCustomers/language
+updatesFromCustomers/postDate
+updatesFromCustomers/postedBy/name
+updatesFromCustomers/postedBy/title
+updatesFromCustomers/postedBy/totalReviews
+updatesFromCustomers/postedBy/url
+updatesFromCustomers/text
+url
+website
