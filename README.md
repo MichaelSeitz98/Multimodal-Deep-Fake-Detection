@@ -1,4 +1,4 @@
-# Erzeugung und Erkennung multimodaler Deepfakes bei Online Rezensionen
+# Erzeugung und Detektion multimodaler Deepfakes bei Online Rezensionen
 
 Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multi-modaler Ansatz verfolgt, der auf verschiedenen Modalitäten wie Text, Bild und Metadaten basiert.
 
@@ -82,7 +82,7 @@ Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten
 Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. 
 
 Text: 
-![Text Modalität](02_Images\graphics\shap_xbg_text.svg)
+![Text Modalität](02_Images/graphic/shap_xbg_text.svg)
 
 Tab: 
 ![Tab Modalität](02_Images\graphics\shap_xbg_tab.svg)
