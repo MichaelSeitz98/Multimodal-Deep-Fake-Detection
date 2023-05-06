@@ -2,6 +2,10 @@
 
 Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multi-modaler Ansatz verfolgt, der auf verschiedenen Modalitäten wie Text, Bild und Metadaten basiert.
 
+![Artefakt Übersicht](02_Images/graphics/artefact_uebersicht_v3.jpg)
+
+
+
 ## Wichtige Notebooks:
 
 1. `nb_generate_dataset.ipynb`: In diesem Notebook werden relevante Informationen aus den Daten extrahiert, Daten herausgefiltert und Basissätze (base_) generiert, die als Grundlage für weitere Verarbeitungsschritte dienen.
