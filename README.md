@@ -1,24 +1,22 @@
-# Multimodal Review Generation and Detection
+# Mulitmodale Fake Review Detektion 
 
-Online-Rezensionen tragen maßgeblich zur Kaufentscheidung von Konsument:innen bei.
-Allerdings sind die Echtheit und Authentizität dieser Rezensionen nicht immer gegeben.
-Teils lassen sich sog. Fake Reviews einfach identifizieren, aber teils ist dies auch nicht
-möglich. Im Angesicht neuartiger Methoden der generativen künstlichen Intelligenz stellt
-sich nun vielmehr die Frage nach der Echtheit der Rezensionen. Während populäre
-generative Modelle wie ChatGPT in der Lage sind plausible Text nach Gusto in
-Sekundenschnelle zu formulieren und dabei reaktiv auf Nutzereingaben zu reagieren,
-können solche Applikationen derzeit noch keine multimodalen Inhalte generieren—sprich
-schlüssige Samples bestehend aus mehreren zusammengehörenden Datenmodalitäten.
-Gerade bei Rezensionen sind multimodale Inhalte bei Konsument:innen eine wichtige
-Referenzquelle. Im Anbetracht der derzeitigen Entwicklung im Bereich der generativen
-künstlichen Intelligenz ist abzusehen, dass zeitnahe solche Applikationen den Markt
-erreichen und dabei auch für die massenweise Manipulation von Online-Rezensionen
-eingesetzt werden.
-Zentrales Ziel der Seminararbeit ist es somit ein IT-System für die Identifikation solcher
-multimodaler Deepfakes zu entwickeln und evaluieren. Hierfür soll als Erstes ein geeigneter
-Review-Datensatz als Datenbasis (Text, Bild und Tabellarisch) gewählt werden. Im
-nächsten Schritt soll dieser dann mittels verschiedener state-of-the-art (SOTA)
-Applikationen zur Generierung künstlicher Daten ebendieser Modalitäten augmentiert
-werden. Im Anschluss soll mittels überwachter maschineller Lernverfahren die Genauigkeit
-bei der Identifikation der Fake Reviews ermittelt werden und anschließend Implikationen für
-die Zukunft abgeleitet werden.
+Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multi-modaler Ansatz verfolgt, der auf verschiedenen Modalitäten wie Text, Bild und Metadaten basiert.
+
+## Wichtige Notebooks:
+
+1. `nb_generate_dataset.ipynb`: In diesem Notebook werden relevante Informationen aus den Daten extrahiert, Daten herausgefiltert und Basissätze (base_) generiert, die als Grundlage für weitere Verarbeitungsschritte dienen.
+
+2. `nb_generate_deepfaces.ipynb`: Auf Basis der Kategorie aus Notebook 1 werden hier auf allen Modalitäten Fake-Reviews generiert. Hier werden der echte Datensatz `base_....csv` und der gefälschte Datensatz `fake_base_gpt_3_...` zusammengeführt zu `base_fake_real.csv`. Dieser Datensatz dient als neue Ausgangsbasis für die Detektion.
+
+3. `nb_feature_extraction.ipynb`: Hier werden die Features für alle Modalitäten extrahiert und im Datensatz `features_enrichted[..].csv` gespeichert. Dieser Datensatz wird für die Detektion herangezogen.
+
+4. `nb_fake_detection.ipnyb`: Zuerst wird der Datensatz in Trainings-, Validierungs- und Testdatensatz aufgeteilt (`detection_train.csv`, `detection_val.csv` und `detection_test.csv`). Anschließend werden XGBoost, Random Forest und TabNet trainiert und die Hyperparameter anhand des Validierungsdatensatzes optimiert. Abschließend wird das Modell evaluiert.
+
+## Ergänzende Notebooks:
+
+5. `nb_generated_gpt3_finetune_datasets.ipynb`: In diesem Notebook werden verschiedene GPT3 Finetunes vorbereitet und dafür benötigte Datensätze erzeugt.
+
+6. `nb_frontend_optional_showcase_v0.ipynb`: Eventuell wird hier für die Präsentation anhand einer prototypischen Frontend das Artefakt vorgestellt. Dieses Notebook ist noch nicht fertiggestellt.
+
+
+# Datensätze 
