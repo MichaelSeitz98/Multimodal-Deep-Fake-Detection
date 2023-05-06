@@ -7,7 +7,7 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 ## Wichtige Notebooks:
 
-1. `nb_generate_dataset.ipynb`: In diesem Notebook werden relevante Informationen aus den Daten extrahiert, verarbeiten, Daten herausgefiltert. Als Resultat wird der  Basissätze `real_base_sent_reduced.csv` generiert (s. unten).
+1. `nb_generate_dataset.ipynb`: In diesem Notebook werden relevante Informationen aus den Daten extrahiert, verarbeiten, Daten herausgefiltert. Als Resultat wird der  Basissätze `real_base_sent_reduced.csv` generiert. 
 
 2. `nb_generate_deepfakes.ipynb`: Auf Basis der Kategorie aus Notebook 1 werden hier auf allen Modalitäten Fake-Reviews generiert. Hier werden der echte Datensatz `base_....csv` und der gefälschte Datensatz `fake_base_gpt_3_...` zusammengeführt zu `merged_fake_real.csv`. Dieser Datensatz dient als neue Ausgangsbasis für die Detektion.
 
@@ -53,7 +53,7 @@ Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten
 
 | Modalität(en)      | Model    | Accuracy | Precision | Recall | F1     | AUC    |
 |--------------------|----------|----------|-----------|--------|--------|--------|
-| Unabhängig         | Coinflip | 0.4964   | 0.4966    | 0.5177 | 0.5069 | 0.4964 |
+| **Unabhängig         | Coinflip | 0.4964   | 0.4966    | 0.5177 | 0.5069 | 0.4964 **|
 | Text               | TabNet   | 0.5248   | 0.5235    | 0.5532 | 0.5379 | 0.5248 |
 | Text               | RF       | 0.5142   | 0.5147    | 0.4965 | 0.5054 | 0.5142 |
 | Text               | XGB      | 0.5567   | 0.5548    | 0.5745 | 0.5645 | 0.5567 |
@@ -72,7 +72,7 @@ Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten
 | Text+Img | TabNet | 0.9078 | 0.9323 | 0.8794 | 0.9051 | 0.9078 |
 | Text+Img | RF | 0.8830 | 0.8913 | 0.8723 | 0.8817 | 0.8830 |
 | Text+Img | XGB | 0.8972 | 0.8944 | 0.9007 | 0.8975 | 0.8972 |
-| Tab+Text+Img | TabNet | 0.9326 | 0.9178 | 0.9504 | 0.9338 | 0.9326 |
+|** Tab+Text+Img | TabNet | 0.9326 | 0.9178 | 0.9504 | 0.9338 | 0.9326 |**
 | Tab+Text+Img | RF | 0.8901 | 0.8986 | 0.8794 | 0.8889 | 0.8901 |
 | Tab+Text+Img | XGB | 0.9149 | 0.9149 | 0.9149 | 0.9149 | 0.9149 |
 
