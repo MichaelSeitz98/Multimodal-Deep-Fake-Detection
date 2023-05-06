@@ -26,19 +26,20 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 ## Wichtige Datensätze  
 
-1. Als Ausgangslage, echte Reviews in `real_base_sent_reduced.csv`. Enthält Informationen von 704 multimodalen echten Google Maps, zufällig ausgewählt aus über ca. 9000 multimodalen Reviews von `l.01_Data\raw_data\dataset_weitere_forschung_relCols.csv`, schon auf wesentliche Spalten reduziert, wird im Notebook `nb_generate_dataset.ipynb` generiert. 
 
-2. `fake_gpt3_all_finetunes_sent__dalle_tab.csv` bildet die Fake-Reviews ab, alle Modalitäten mit unterschiedlichen Technologien erzeugt und als Spalte angehängt (GPT3 Finetune, DALL-E-2, CTGAN und Faker genutzt). Entsteht durch Notebook  `nb_generate_deepfakes.ipynb`.
 
-3.  `base_for_feature_extraction.csv` bildet den zusammengesetzten Datensatz aus 704 multimodalen Fakes und 704 Echten Reviews ab, mit URL zu den echten und gefakten Bildern, als Grundlage für Feature Extraction und letztendlich auch Detektion. 
+1.  `real_base_sent_reduced.csv`: enthält Informationen von 704 multimodalen echten Google Maps Reviews, zufällig ausgewählt aus über ca. 9000 multimodalen Reviews von  `l.01_Data\raw_data\dataset_weitere_forschung_relCols.csv` Der Datensatz wurde schon auf wesentliche Spalten reduziert und wird im Notebook `nb_generate_dataset.ipynb` generiert.
 
-4. `features_enriched_tab_img_text.xlsx`, ist mit den extrahierten Features aller Modalitäten angereichert, wird im Notebook `nb_feature_extraction.ipynb` erstellt. Auch nach leichten Preprocessing Schritten nochmals in Form von `features_enriched_tab_img_text_preproc.csv` abgespeichert. 
+2. `fake_gpt3_all_finetunes_sent__dalle_tab.csv`: bildet die Fake-Reviews ab, alle Modalitäten mit unterschiedlichen Technologien erzeugt und als Spalte angehängt (GPT3 Finetune, DALL-E-2, CTGAN und Faker genutzt). Wird in  Notebook  `nb_generate_deepfakes.ipynb`.
+
+3.  `base_for_feature_extraction.csv`: bildet den zusammengesetzten Datensatz aus 704 multimodalen Fakes und 704 Echten Reviews ab, mit URL zu den echten und gefakten Bildern, als Grundlage für Feature Extraction und letztendlich auch Detektion. 
+
+4. `features_enriched_tab_img_text.csv`: ist mit den extrahierten Features aller Modalitäten angereichert, wird im Notebook `nb_feature_extraction.ipynb` erstellt. Nach einigen kleineren preprocessing Schritten nochmals in Form von `features_enriched_tab_img_text_preproc.csv` abgespeichert. 
 
 5. Datensätze für den Data Split:
 - `detection_train.csv`
 - `detection_test.csv`
 - `detection_val.csv`
-
 Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen Daten trainiert, getuned und evaluiert werden. Deshalb werden Datensätze mit 80:20 Split Train_Val : Test und nochmals 80:20 Split Train:Val erzeugt. Zu Beginn von Notebook `nb_fake_detection.ipnyb` werden diese abgespeichert.
 
-6. Die separate Auswertung des alternativen "abgeschlossenen Bildklassifikator-Ansatzes" ist in `results_image_classifier.csv` aus `nb_generated_gpt3_finetune_datasets.ipynb` abgespeichert. 
+6. Die separate Auswertung des alternativen "abgeschlossenen Bildklassifikator-Ansatzes" ist unter  `results_image_classifier.csv` aus dem Notbook `nb_generated_gpt3_finetune_datasets.ipynb` abgespeichert. 
