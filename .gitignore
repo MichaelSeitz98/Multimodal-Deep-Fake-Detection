@@ -3,5 +3,5 @@
 09_backup_archiv/*.txt
 09_backup_archiv/*.json
 apikey_*
-01_Data/*.xlsx
-01_Data/*.csv
+01_Data/raw_data/dataset_weitere_forschung.csv
+01_Data/raw_data/dataset_Google*.csv
