@@ -22,7 +22,7 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 ## Wichtige Datensätze  
 
-1.  `real_base_sent_reduced.csv`: enthält Informationen von 704 multimodalen echten Google Maps Reviews, zufällig ausgewählt aus über ca. 9000 multimodalen Reviews von  `l.01_Data\raw_data\dataset_weitere_forschung_relCols.csv` Der Datensatz wurde schon auf wesentliche Spalten reduziert und wird im Notebook `nb_generate_dataset.ipynb` generiert.
+1.  `real_base_sent_reduced.csv`: enthält Informationen von 704 echten multimodalen (Text, Bild, Metainformationen) echten Google Maps Reviews, zufällig ausgewählt aus über ca. 9000 multimodalen Reviews von  `l.01_Data\raw_data\dataset_weitere_forschung_relCols.csv` Der Datensatz wurde schon auf wesentliche Spalten reduziert und wird im Notebook `nb_generate_dataset.ipynb` generiert.
 
 2. `fake_gpt3_all_finetunes_sent__dalle_tab.csv`: bildet die Fake-Reviews ab, alle Modalitäten mit unterschiedlichen Technologien erzeugt und als Spalte angehängt (GPT3 Finetune, DALL-E-2, CTGAN und Faker genutzt). Wird in  Notebook  `nb_generate_deepfakes.ipynb`. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Hier sind auch die Ergebnisse der verschiendeenen Finetune-Varianten enthalten. 
 
@@ -79,4 +79,19 @@ Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten
 
 ## Verständnis mit SHAP-Analyse
 
-Die Vorhersagen wurden 
+Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. 
+
+Text: 
+![Text Modalität](02_Images\graphics\shap_xbg_text.svg)
+
+Tab: 
+![Tab Modalität](02_Images\graphics\shap_xbg_tab.svg)
+
+Image: 
+![Img Modalität](02_Images\graphics\shap_xbg_img0_10.svg)
+
+Kombination aus Tab + Img: 
+![Tab + Img Modalität](02_Images\graphics\shap_xbg_tab_img0.svg)
+
+
+![Tab + Text + Img ](02_Images\graphics\shap_xbg_tab_text_img0.svg)
