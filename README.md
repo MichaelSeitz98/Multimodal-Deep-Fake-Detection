@@ -79,19 +79,30 @@ Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten
 
 ## Verständnis mit SHAP-Analyse
 
-Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. 
-
-Text: 
-![Text Modalität](02_Images/graphic/shap_xbg_text.svg)
-
-Tab: 
-![Tab Modalität](02_Images\graphics\shap_xbg_tab.svg)
-
-Image: 
-![Img Modalität](02_Images\graphics\shap_xbg_img0_10.svg)
-
-Kombination aus Tab + Img: 
-![Tab + Img Modalität](02_Images\graphics\shap_xbg_tab_img0.svg)
+Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. Einige davon hier: 
 
 
-![Tab + Text + Img ](02_Images\graphics\shap_xbg_tab_text_img0.svg)
+**Text:**
+
+![Text Modalität](02_Images\graphics\shap_xgb_text.png)
+
+**Tabellarisch:** 
+
+![Tab Modalität](02_Images\graphics\shap_xgb_tab.png)
+
+**Bild:**
+
+![Img Modalität](02_Images\graphics\shap_xgb_img0_10.png)
+
+**Kombination aus Tab + Img:**
+
+![Tab + Img Modalität](02_Images\graphics\shap_xgb_tab_img0.png)
+
+**Kombination aus Tab + Text:**
+
+![Tab + Text  Modalität](02_Images\graphics\shap_xgb_tab_text.png)
+
+**Alle Modalitäten:**
+
+![Tab + Text + Img ](02_Images\graphics\shap_xgb_tab_img0.png)
+
