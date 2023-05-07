@@ -22,6 +22,8 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 ## Wichtige Datensätze  
 
+Die bedeutenden Datensätze sind im Order abgelegt [01_Data/data_cleaned_processed/] (01_Data/data_cleaned_processed/). Einige wichtige davon sind: 
+
 1.  `real_base_sent_reduced.csv`: enthält Informationen von 704 echten multimodalen (Text, Bild, Metainformationen) echten Google Maps Reviews, zufällig ausgewählt aus über ca. 9000 multimodalen Reviews von  `l.01_Data\raw_data\dataset_weitere_forschung_relCols.csv` Der Datensatz wurde schon auf wesentliche Spalten reduziert und wird im Notebook `nb_generate_dataset.ipynb` generiert.
 
 2. `fake_gpt3_all_finetunes_sent__dalle_tab.csv`: bildet die Fake-Reviews ab, alle Modalitäten mit unterschiedlichen Technologien erzeugt und als Spalte angehängt (GPT3 Finetune, DALL-E-2, CTGAN und Faker genutzt). Wird in  Notebook  `nb_generate_deepfakes.ipynb`. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Hier sind auch die Ergebnisse der verschiendeenen Finetune-Varianten enthalten. 
@@ -37,7 +39,7 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen Daten trainiert, getuned und evaluiert werden. Deshalb werden Datensätze mit 80:20 Split Train_Val : Test und nochmals 80:20 Split Train:Val erzeugt. Zu Beginn von Notebook `nb_fake_detection.ipnyb` werden diese abgespeichert.
 
-1. Die separate Auswertung des alternativen "abgeschlossenen Bildklassifikator-Ansatzes" ist unter  `results_image_classifier.csv` aus dem Notbook `nb_generated_gpt3_finetune_datasets.ipynb` abgespeichert. 
+6.  `results_image_classifier.csv`: Dort ist die separate Auswertung des alternativen "abgeschlossenen Bildklassifikator-Ansatzes" ist unter aus dem Notebook `nb_generated_gpt3_finetune_datasets.ipynb` abgespeichert
 
 ## Weitere Informationen zur Handhabung
 
@@ -53,7 +55,7 @@ Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten
 
 | Modalität(en)      | Model    | Accuracy | Precision | Recall | F1     | AUC    |
 |--------------------|----------|----------|-----------|--------|--------|--------|
-| **Unabhängig         | Coinflip | 0.4964   | 0.4966    | 0.5177 | 0.5069 | 0.4964 **|
+| **Unabhängig       | Coinflip | 0.4964   | 0.4966    | 0.5177 | 0.5069 | 0.4964 **|
 | Text               | TabNet   | 0.5248   | 0.5235    | 0.5532 | 0.5379 | 0.5248 |
 | Text               | RF       | 0.5142   | 0.5147    | 0.4965 | 0.5054 | 0.5142 |
 | Text               | XGB      | 0.5567   | 0.5548    | 0.5745 | 0.5645 | 0.5567 |
@@ -100,9 +102,9 @@ Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombina
 
 **Kombination aus Tab + Text:**
 
-![Tab + Text  Modalität](02_Images\graphics\shap_xgb_tab_text.png)
+![Tab + Text  Modalität](02_Images/graphics/shap_xgb_tab_text.png)
 
 **Alle Modalitäten:**
 
-![Tab + Text + Img ](02_Images\graphics\shap_xgb_tab_img0.png)
+![Tab + Text + Img ](02_Images/graphics/shap_xgb_tab_img0.png)
 
