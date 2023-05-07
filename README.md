@@ -84,19 +84,19 @@ Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombina
 
 **Text:**
 
-![Text Modalität](02_Images\graphics\shap_xgb_text.png)
+![Text Modalität](02_Images/graphics/shap_xgb_text.png)
 
 **Tabellarisch:** 
 
-![Tab Modalität](02_Images\graphics\shap_xgb_tab.png)
+![Tab Modalität](02_Images/graphics/shap_xgb_tab.png)
 
 **Bild:**
 
-![Img Modalität](02_Images\graphics\shap_xgb_img0_10.png)
+![Img Modalität](02_Images/graphics/shap_xgb_img0_10.png)
 
 **Kombination aus Tab + Img:**
 
-![Tab + Img Modalität](02_Images\graphics\shap_xgb_tab_img0.png)
+![Tab + Img Modalität](02_Images/graphics/shap_xgb_tab_img0.png)
 
 **Kombination aus Tab + Text:**
 
