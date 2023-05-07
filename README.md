@@ -47,7 +47,7 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 - Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Hotel, Restaurant, Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier] (01_Data\raw_data\cols_activities.txt) alle Spalten für gescrapte Aktivitäten. 
 - Es wurden mehrere Varianten von GPT3 Finetunes entwickelt und auf den Datensatz angewendet. Die hierfür benötigte Datensätze (inkl. inklusive Prompt und Prompt-Completions) sind unter [01_Data/finetuning/](01_Data/finetuning/) abgespeichert.
 - Einige nicht direkt verwendete Dateien, die evtl. für zukünftige Untersuchungen relevant bleiben könnten, sind im Ordner [09_outdated_archived_or_rejected_approaches] (09_outdated_archived_or_rejected_approaches) abgelegt. Darunter fallen auch Ansätze mit anderen Technologien (Stable Diffusion, GPT2, GPT3.5 Turbo, AutoTrain), die letztendlich nicht verwendet wurden. Außerdem ist dort ein [Datensatz multimodaler Amazon-Reviews](09_outdated_archived_or_rejected_approaches\amazon\dataset_amazon_reviews_v1.csv) abgelegt, der nicht verwendet wurde. Ergebnisse von Zwischenschritte sind teilweise ebenfalls dort abgelegt. 
-
+- Die SHAP Graphiken und Visualisierungen sind im Ordner [02_Images/graphics](02_Images/graphics) abgelegt, während die Graphiken zur Feature-Extraktion bei Bildern im Ordner  [02_Images/visualizations_image_features](02_Images/visualizations_image_features) 
 ## Ergebnisse
 
 Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet sind in der folgenden Tabelle aufgelistet. 
