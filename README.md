@@ -46,7 +46,7 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 - Die künstlich generierten Bilder von DALL-E-2 können über den die Datensätze `base_for_feature_extraction.csv` sowie `fake_gpt3_all_finetunes_sent__dalle_tab.csv` zugegriffen werden. Um das zu ermöglichen sind die Bilder im Ordner [02_Images/](02_Images/) gehostet. 
 - Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Hotel, Restaurant, Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier] (01_Data\raw_data\cols_activities.txt) alle Spalten für gescrapte Aktivitäten. 
 - Es wurden mehrere Varianten von GPT3 Finetunes entwickelt und auf den Datensatz angewendet. Die hierfür benötigte Datensätze (inkl. inklusive Prompt und Prompt-Completions) sind unter [01_Data/finetuning/](01_Data/finetuning/) abgespeichert.
-- Einige nicht direkt verwendete Dateien, die evtl. für zukünftige Untersuchungen relevant bleiben könnten, sind im Ordner [09_outdated_archived_or_rejected_approaches] (09_outdated_archived_or_rejected_approaches) abgelegt. Darunter fallen auch Ansätze mit anderen Technologien (Stable Diffusion, GPT2, GPT3.5 Turbo, AutoTrain), die letztendlich nicht verwendet wurden. Außerdem ist dort ein [Datensatz multimodaler Amazon-Reviews](09_outdated_archived_or_rejected_approaches\amazon\dataset_amazon_reviews_v1.csv) abgelegt, der nicht verwendet wurde. 
+- Einige nicht direkt verwendete Dateien, die evtl. für zukünftige Untersuchungen relevant bleiben könnten, sind im Ordner [09_outdated_archived_or_rejected_approaches] (09_outdated_archived_or_rejected_approaches) abgelegt. Darunter fallen auch Ansätze mit anderen Technologien (Stable Diffusion, GPT2, GPT3.5 Turbo, AutoTrain), die letztendlich nicht verwendet wurden. Außerdem ist dort ein [Datensatz multimodaler Amazon-Reviews](09_outdated_archived_or_rejected_approaches\amazon\dataset_amazon_reviews_v1.csv) abgelegt, der nicht verwendet wurde. Ergebnisse von Zwischenschritte sind teilweise ebenfalls dort abgelegt. 
 
 ## Ergebnisse
 
@@ -55,7 +55,7 @@ Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten
 
 | Modalität(en)      | Model    | Accuracy | Precision | Recall | F1     | AUC    |
 |--------------------|----------|----------|-----------|--------|--------|--------|
-| **Unabhängig       | Coinflip | 0.4964   | 0.4966    | 0.5177 | 0.5069 | 0.4964 **|
+| Unabhängig       | Coinflip | 0.4964   | 0.4966    | 0.5177 | 0.5069 | 0.4964   |
 | Text               | TabNet   | 0.5248   | 0.5235    | 0.5532 | 0.5379 | 0.5248 |
 | Text               | RF       | 0.5142   | 0.5147    | 0.4965 | 0.5054 | 0.5142 |
 | Text               | XGB      | 0.5567   | 0.5548    | 0.5745 | 0.5645 | 0.5567 |
@@ -74,7 +74,7 @@ Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten
 | Text+Img | TabNet | 0.9078 | 0.9323 | 0.8794 | 0.9051 | 0.9078 |
 | Text+Img | RF | 0.8830 | 0.8913 | 0.8723 | 0.8817 | 0.8830 |
 | Text+Img | XGB | 0.8972 | 0.8944 | 0.9007 | 0.8975 | 0.8972 |
-|** Tab+Text+Img | TabNet | 0.9326 | 0.9178 | 0.9504 | 0.9338 | 0.9326 |**
+|Tab+Text+Img | TabNet | 0.9326 | 0.9178 | 0.9504 | 0.9338 | 0.9326 |
 | Tab+Text+Img | RF | 0.8901 | 0.8986 | 0.8794 | 0.8889 | 0.8901 |
 | Tab+Text+Img | XGB | 0.9149 | 0.9149 | 0.9149 | 0.9149 | 0.9149 |
 
