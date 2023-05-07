@@ -81,7 +81,7 @@ Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten
 
 ## Verständnis mit SHAP-Analyse
 
-Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. Einige davon hier: 
+Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. Einige davon sind hier aufgelistet: 
 
 
 **Text:**
