@@ -1,6 +1,6 @@
 # Erzeugung und Detektion multimodaler Deepfakes bei Online Rezensionen
 
-Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multi-modaler Ansatz verfolgt, der auf verschiedenen Modalitäten wie Text, Bild und Metadaten basiert.
+Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multimodaler Ansatz verfolgt, der auf verschiedenen Modalitäten wie Text, Bild und Metadaten basiert.
 
 ![Artefakt Übersicht](02_Images/graphics/artefact_uebersicht_v4.jpg)
 
@@ -28,16 +28,16 @@ Die bedeutenden Datensätze sind im Order abgelegt [01_Data/data_cleaned_process
 
 2. `fake_gpt3_all_finetunes_sent__dalle_tab.csv`: bildet die Fake-Reviews ab, alle Modalitäten mit unterschiedlichen Technologien erzeugt und als Spalte angehängt (GPT3 Finetune, DALL-E-2, CTGAN und Faker genutzt). Wird in  Notebook  `nb_generate_deepfakes.ipynb`. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Hier sind auch die Ergebnisse der verschiendeenen Finetune-Varianten enthalten. 
 
-3.  `base_for_feature_extraction.csv`: bildet den zusammengesetzten Datensatz aus 704 multimodalen Fakes und 704 Echten Reviews ab, mit URL zu den echten und gefakten Bildern, als Grundlage für Feature Extraction und letztendlich auch Detektion. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Der Text wird hier anhand der Fintune-Variante v4 verwendet. 
+3.  `**base_for_feature_extraction.csv**`: bildet den **zusammengesetzten Datensatz** aus 704 multimodalen Fakes und 704 Echten Reviews ab, mit URL zu den echten und gefakten Bildern, als Grundlage für Feature Extraction und letztendlich auch Detektion. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Als Text wird hier anhand der Fintune-Variante FT v4 verwendet. 
 
-4. `features_enriched_tab_img_text.csv`: ist mit den extrahierten Features aller Modalitäten angereichert, wird im Notebook `nb_feature_extraction.ipynb` erstellt. Nach einigen kleineren preprocessing Schritten nochmals in Form von `features_enriched_tab_img_text_preproc.csv` abgespeichert. 
+4. `features_enriched_tab_img_text.csv`: ist mit den extrahierten Features aller Modalitäten angereichert, wird im Notebook `nb_feature_extraction.ipynb` erstellt. Nach einigen kleineren preprocessing Schritten nochmals in Form von `features_enriched_tab_img_text_preproc.csv` abgespeichert. Bildet die Basis für den Data Split bzw. die Detektion. 
 
 5. Datensätze für den Data Split:
 - `detection_train.csv`
 - `detection_test.csv`
 - `detection_val.csv`
 
-Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen Daten trainiert, getuned und evaluiert werden. Deshalb werden Datensätze mit 80:20 Split Train_Val : Test und nochmals 80:20 Split Train:Val erzeugt. Zu Beginn von Notebook `nb_fake_detection.ipnyb` werden diese abgespeichert.
+Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen Daten trainiert, getuned und evaluiert werden. Deshalb werden Datensätze mit 80:20 Split Train_Val:Test und nochmals 80:20 Split Train:Val erzeugt. Zu Beginn von Notebook `nb_fake_detection.ipnyb` werden diese abgespeichert.
 
 6.  `results_image_classifier.csv`: Dort ist die separate Auswertung des alternativen "abgeschlossenen Bildklassifikator-Ansatzes" ist unter aus dem Notebook `nb_generated_gpt3_finetune_datasets.ipynb` abgespeichert
 
@@ -47,7 +47,8 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 - Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Hotel, Restaurant, Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier] (01_Data\raw_data\cols_activities.txt) alle Spalten für gescrapte Aktivitäten. 
 - Es wurden mehrere Varianten von GPT3 Finetunes entwickelt und auf den Datensatz angewendet. Die hierfür benötigte Datensätze (inkl. inklusive Prompt und Prompt-Completions) sind unter [01_Data/finetuning/](01_Data/finetuning/) abgespeichert.
 - Einige nicht direkt verwendete Dateien, die evtl. für zukünftige Untersuchungen relevant bleiben könnten, sind im Ordner [09_outdated_archived_or_rejected_approaches] (09_outdated_archived_or_rejected_approaches) abgelegt. Darunter fallen auch Ansätze mit anderen Technologien (Stable Diffusion, GPT2, GPT3.5 Turbo, AutoTrain), die letztendlich nicht verwendet wurden. Außerdem ist dort ein [Datensatz multimodaler Amazon-Reviews](09_outdated_archived_or_rejected_approaches\amazon\dataset_amazon_reviews_v1.csv) abgelegt, der nicht verwendet wurde. Ergebnisse von Zwischenschritte sind teilweise ebenfalls dort abgelegt. 
-- Die SHAP Graphiken und Visualisierungen sind im Ordner [02_Images/graphics](02_Images/graphics) abgelegt, während die Graphiken zur Feature-Extraktion bei Bildern im Ordner  [02_Images/visualizations_image_features](02_Images/visualizations_image_features) 
+- Die SHAP Graphiken und andere Visualisierungen sind im Ordner [02_Images/graphics](02_Images/graphics) abgelegt, während die Graphiken zur Feature-Extraktion bei Bildern im Ordner  [02_Images/visualizations_image_features](02_Images/visualizations_image_features)
+- 
 ## Ergebnisse
 
 Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet sind in der folgenden Tabelle aufgelistet. 
