@@ -22,7 +22,7 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 ## Wichtige Datensätze  
 
-Die bedeutenden Datensätze sind im Order abgelegt [01_Data/data_cleaned_processed/] (01_Data/data_cleaned_processed/). Einige wichtige davon sind: 
+Die bedeutenden Datensätze sind im Order abgelegt [01_Data/data_cleaned_processed/] (01_Data/data_cleaned_processed/) abgelegt. Die rohe (und leicht vorverarbeitete) Datensätz unter [01_Data/raw_data/] (01_Data/raw_Data/). Für die Finetunes verwendeten Datensätze sind in [01_Data/gpt3_finetunes](01_Data/gpt3_finetunes/) abgelegt. 
 
 1.  `real_base_sent_reduced.csv`: enthält Informationen von 704 echten multimodalen (Text, Bild, Metainformationen) echten Google Maps Reviews, zufällig ausgewählt aus über ca. 9000 multimodalen Reviews von  `l.01_Data\raw_data\dataset_weitere_forschung_relCols.csv` Der Datensatz wurde schon auf wesentliche Spalten reduziert und wird im Notebook `nb_generate_dataset.ipynb` generiert.
 
@@ -44,11 +44,14 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 ## Weitere Informationen zur Handhabung
 
 - Die künstlich generierten Bilder von DALL-E-2 können über den die Datensätze `base_for_feature_extraction.csv` sowie `fake_gpt3_all_finetunes_sent__dalle_tab.csv` zugegriffen werden. Um das zu ermöglichen sind die Bilder im Ordner [02_Images/](02_Images/) gehostet. 
-- Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Hotel, Restaurant, Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier] (01_Data\raw_data\cols_activities.txt) alle Spalten für gescrapte Aktivitäten. 
+- Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie ( Restaurant,Hotel, Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier] (01_Data\raw_data\cols_activities.txt) alle Spalten für gescrapte Aktivitäten. 
 - Es wurden mehrere Varianten von GPT3 Finetunes entwickelt und auf den Datensatz angewendet. Die hierfür benötigte Datensätze (inkl. inklusive Prompt und Prompt-Completions) sind unter [01_Data/finetuning/](01_Data/finetuning/) abgespeichert.
-- Einige nicht direkt verwendete Dateien, die evtl. für zukünftige Untersuchungen relevant bleiben könnten, sind im Ordner [09_outdated_archived_or_rejected_approaches] (09_outdated_archived_or_rejected_approaches) abgelegt. Darunter fallen auch Ansätze mit anderen Technologien (Stable Diffusion, GPT2, GPT3.5 Turbo, AutoTrain), die letztendlich nicht verwendet wurden. Außerdem ist dort ein [Datensatz multimodaler Amazon-Reviews](09_outdated_archived_or_rejected_approaches\amazon\dataset_amazon_reviews_v1.csv) abgelegt, der nicht verwendet wurde. Ergebnisse von Zwischenschritte sind teilweise ebenfalls dort abgelegt. 
 - Die SHAP Graphiken und andere Visualisierungen sind im Ordner [02_Images/graphics](02_Images/graphics) abgelegt, während die Graphiken zur Feature-Extraktion bei Bildern im Ordner  [02_Images/visualizations_image_features](02_Images/visualizations_image_features)
-- 
+- Einige nicht direkt verwendete Dateien, die evtl. für zukünftige Untersuchungen relevant bleiben könnten, sind im Ordner
+- [09_outdated_archived_or_rejected_approaches] (09_outdated_archived_or_rejected_approaches) abgelegt. Darunter fallen auch Ansätze mit anderen Technologien (Stable Diffusion, GPT-2, GPT-3.5 Turbo, AutoTrain), die letztendlich nicht verwendet wurden. Außerdem ist dort ein [Datensatz multimodaler Amazon-Reviews](09_outdated_archived_or_rejected_approaches\amazon\dataset_amazon_reviews_v1.csv) abgelegt, der nicht verwendet wurde. Ergebnisse von Zwischenschritte sind teilweise ebenfalls dort abgelegt.
+- [comparison_finetune_variations_50sample.xlsx](01_Data\data_cleaned_processed\comparison_finetune_variations_50sample.xlsx) stellt einen übersichtlich für den Vergleich der Finetunes FT2-4dar (Anmerkunkung: FT3 in zwei Versionen, 3.2 auf Basis von 3.1 weitertrainiert)
+  
+
 ## Ergebnisse
 
 Die Ergebnisse der vergleichenden UNtersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet sind in der folgenden Tabelle aufgelistet. 
