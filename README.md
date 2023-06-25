@@ -17,8 +17,7 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 5. `nb_generated_gpt3_finetune_datasets.ipynb`: In diesem Notebook werden verschiedene GPT3 Finetunes vorbereitet und dafür benötigte Datensätze erzeugt.
 
-6. `nb_frontend_optional_showcase_v0.ipynb`: Eventuell wird hier für die Präsentation anhand einer prototypischen Frontend das Artefakt vorgestellt. Dieses Notebook ist noch nicht fertiggestellt.
-
+6. `nb_frontend_optional_showcase_v0.ipynb`: Hier für die Präsentation anhand einer prototypischen Frontend das Artefakt vorgestellt. Durch Auführen aller Zellen, kann die Frontendanwendung gestartet werden. Zum einen besteht diese aus einem Quiz: "Fake oder Echt", worin man testen kann ob man selbst erkennt ob es sich um eine Deepfake oder um eine echte Review handelt. Der zweite Teil der Frontend-Anwendung ("Generierung mulitmodaler Deepfakes" verdeutlicht wie einfach multimodale Deepfakes mittels generativer KI erstellt werden können.
 
 ## Wichtige Datensätze  
 
