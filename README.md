@@ -4,7 +4,8 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 **Architektur:**
 
-![Artefakt Übersicht](02_Images/graphics/artefact_uebersicht_v5.jpg)
+
+<img src="02_Images/graphics/artefact_uebersicht_v5.jpg" alt="it-artefakt" width="730">
 
 
 ## Wichtige Notebooks:notebook:
@@ -89,20 +90,14 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 
 ## Demo-Anwendung
 
-####Ein-Klick-Fake-Generator
+#### Ein-Klick-Fake-Generator
 
-https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/00eb4200-eba1-42d5-b086-485601ced8e0
-
-**
-####Echt-Oder-Fake-Quiz
-
-https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/bb6971e4-5c6d-4eea-b120-074a44a80cf4
-
-<video src="02_Images/graphics/demo_quiz.mp4" controls autoplay>
+<video src="02_Images/graphics/demo_one_click_deepfake_generator.mp4" controls autoplay width="480">
   Your browser does not support the video tag.
 </video>
 
-<video src="02_Images/graphics/demo_one_click_deepfake_generator.mp4" controls autoplay>
+#### Echt-Oder-Fake-Quiz
+<video src="02_Images/graphics/demo_quiz.mp4" controls autoplay width="480">
   Your browser does not support the video tag.
 </video>
 
