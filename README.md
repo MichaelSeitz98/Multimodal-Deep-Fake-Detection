@@ -88,6 +88,16 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 | Tab+Text+Img | XGB | 0.9149 | 0.9149 | 0.9149 | 0.9149 | 0.9149 | -->
 
 
+https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/00eb4200-eba1-42d5-b086-485601ced8e0
+
+
+
+https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/bb6971e4-5c6d-4eea-b120-074a44a80cf4
+
+
+
+
+
 ## Demo-Anwendung
 
 <video src="02_Images/graphics/demo_quiz.mp4" controls autoplay>
