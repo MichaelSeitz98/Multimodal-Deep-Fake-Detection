@@ -5,7 +5,7 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 ![Artefakt Übersicht](02_Images/graphics/artefact_uebersicht_v4.jpg)
 
 
-## Wichtige Notebooks
+## Wichtige Notebooks:notebook:
 
 1. `nb_generate_dataset.ipynb`: In diesem Notebook werden relevante Informationen aus den Daten extrahiert, verarbeiten, Daten herausgefiltert. Als Resultat wird der  Basissätze `real_base_sent_reduced.csv` generiert. 
 
@@ -17,9 +17,9 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 5. `nb_generated_gpt3_finetune_datasets.ipynb`: In diesem Notebook werden verschiedene GPT3 Finetunes vorbereitet und dafür benötigte Datensätze erzeugt.
 
-6. `nb_frontend_optional_showcase_v0.ipynb`: Hier für die Präsentation anhand einer prototypischen Frontend das Artefakt vorgestellt. Durch Auführen aller Zellen, kann die Frontendanwendung gestartet werden. Zum einen besteht diese aus einem Quiz: "Fake oder Echt", worin man testen kann ob man selbst erkennt ob es sich um eine Deepfake oder um eine echte Review handelt. Der zweite Teil der Frontend-Anwendung ("Generierung mulitmodaler Deepfakes" verdeutlicht wie einfach multimodale Deepfakes mittels generativer KI erstellt werden können.
+6. `nb_frontend_optional_showcase.ipynb`: Hier für die Präsentation anhand einer prototypischen Frontend das Artefakt vorgestellt. Durch Auführen aller Zellen, kann die Frontendanwendung gestartet werden. Zum einen besteht diese aus einem Quiz: "Fake oder Echt", worin man testen kann ob man selbst erkennt ob es sich um eine Deepfake oder um eine echte Review handelt. Der zweite Teil der Frontend-Anwendung "Generierung mulitmodaler Deepfakes" verdeutlicht wie einfach multimodale Deepfakes mittels generativer KI erstellt werden können. Dies verdeutlich die (zukünftige) Relevanz von multimodalen Detektionsmethoden.
 
-## Wichtige Datensätze  
+## Wichtige Datensätze :file_folder:
 
 Die bedeutenden Datensätze sind im Order abgelegt [01_Data/data_cleaned_processed/] (01_Data/data_cleaned_processed/) abgelegt. Die rohe (und leicht vorverarbeitete) Datensätz unter [01_Data/raw_data/] (01_Data/raw_Data/). Für die Finetunes verwendeten Datensätze sind in [01_Data/gpt3_finetunes](01_Data/gpt3_finetunes/) abgelegt. 
 
@@ -40,10 +40,10 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 
 6.  `results_image_classifier.csv`: Dort ist die separate Auswertung des alternativen "abgeschlossenen Bildklassifikator-Ansatzes" ist unter aus dem Notebook `nb_generated_gpt3_finetune_datasets.ipynb` abgespeichert
 
-## Weitere Informationen zur Handhabung
+## Weitere Informationen zur Handhabung :book:
 
 - Die künstlich generierten Bilder von DALL-E-2 können über die Datensätze `base_for_feature_extraction.csv` sowie `fake_gpt3_all_finetunes_sent__dalle_tab.csv` abgerufen werden. Um das zu ermöglichen sind die Bilder im Ordner [02_Images/](02_Images/) gehostet. 
-- Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Restaurant,Hotel und  Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier] (01_Data\raw_data\cols_activities.txt) alle Spalten für gescrapte Aktivitäten. 
+- Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Restaurant,Hotel und  Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier] (01_Data/raw_data/cols_activities.txt) alle Spalten für gescrapte Aktivitäten. 
 - Es wurden mehrere Varianten von GPT3 Finetunes entwickelt und auf den Datensatz angewendet. Die hierfür benötigte Datensätze (inkl. Prompt und Prompt-Completions) sind unter [01_Data/finetuning/](01_Data/finetuning/) abgespeichert.
 - Die SHAP Graphiken sind im Ordner [02_Images/graphics](02_Images/graphics) abgelegt, 
 - Visualisierungen des Bild-Features (durch Aktive Maximierung-Technologie) in [02_Images/visualizations_image_features](02_Images/visualizations_image_features) 
@@ -52,9 +52,11 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 - [comparison_finetune_variations_50sample.xlsx](01_Data\data_cleaned_processed\comparison_finetune_variations_50sample.xlsx) stellt einen übersichtlich für den Vergleich der Finetunes FT2-4dar (Anmerkung: FT3 in zwei Versionen, 3.2 auf Basis von 3.1 weitertrainiert)
   
 
-## Ergebnisse
+## Ergebnisse :bar_chart:
 
-Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet sind in der folgenden Tabelle aufgelistet. 
+Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet sind in der folgenden Tabelle aufgelistet.
+
+
 
 
 | Modalität(en)      | Model    | Accuracy | Precision | Recall | F1     | AUC    |
@@ -83,7 +85,7 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 | Tab+Text+Img | XGB | 0.9149 | 0.9149 | 0.9149 | 0.9149 | 0.9149 |
 
 
-## Verständnis mit SHAP-Analyse
+## Verständnis mit SHAP-Analyse :bulb:
 
 Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. Einige davon sind hier aufgelistet: 
 
@@ -112,4 +114,3 @@ Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombina
 **Alle Modalitäten:**
 
 ![Tab + Text + Img ](02_Images/graphics/shap_xgb_tab_text_img0.png)
-
