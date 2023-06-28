@@ -88,6 +88,16 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 | Tab+Text+Img | XGB | 0.9149 | 0.9149 | 0.9149 | 0.9149 | 0.9149 | -->
 
 
+## Demo-Anwendung
+
+<video src="02_Images/graphics/demo_quiz.mp4" controls autoplay>
+  Your browser does not support the video tag.
+</video>
+
+<video src="02_Images/graphics/demo_one_click_generator.mp4" controls autoplay>
+  Your browser does not support the video tag.
+</video>
+
 ## Verständnis mit SHAP-Analyse :bulb:
 
 Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. Einige davon sind hier aufgelistet: 
