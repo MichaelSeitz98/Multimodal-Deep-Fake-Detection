@@ -27,7 +27,7 @@ Die bedeutenden Datensätze sind im Order abgelegt [01_Data/data_cleaned_process
 
 2. `fake_gpt3_all_finetunes_sent__dalle_tab.csv`: bildet die Fake-Reviews ab, alle Modalitäten mit unterschiedlichen Technologien erzeugt und als Spalte angehängt (GPT3 Finetune, DALL-E-2, CTGAN und Faker genutzt). Wird in  Notebook  `nb_generate_deepfakes.ipynb` erzeugt. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Hier sind auch die Ergebnisse der verschiendeenen Finetune-Varianten enthalten. 
 
-3.  `**base_for_feature_extraction.csv**`: bildet den **zusammengesetzten Datensatz** aus 704 multimodalen Fakes und 704 Echten Reviews ab, mit URL zu den echten und gefakten Bildern, als Grundlage für Feature Extraction und letztendlich auch Detektion. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Als Text wird hier anhand der Finetune-Variante FT v4 verwendet. 
+3.  `base_for_feature_extraction.csv`: bildet den **zusammengesetzten Datensatz** aus 704 multimodalen Fakes und 704 Echten Reviews ab, mit URL zu den echten und gefakten Bildern, als Grundlage für Feature Extraction und letztendlich auch Detektion. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Als Text wird hier anhand der Finetune-Variante FT v4 verwendet. 
 
 4. `features_enriched_tab_img_text.csv`: ist mit den extrahierten Features aller Modalitäten angereichert, wird im Notebook `nb_feature_extraction.ipynb` erstellt. Nach einigen kleineren preprocessing Schritten nochmals in Form von `features_enriched_tab_img_text_preproc.csv` abgespeichert. Bildet die Basis für den Data Split bzw. die Detektion. 
 
@@ -40,26 +40,27 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 
 6.  `results_image_classifier.csv`: Dort ist die separate Auswertung des alternativen "abgeschlossenen Bildklassifikator-Ansatzes" ist unter aus dem Notebook `nb_generated_gpt3_finetune_datasets.ipynb` abgespeichert
 
-## Weitere Informationen zur Handhabung :book:
+## Weitere Informationen zur Handhabung :question:
 
 - Die künstlich generierten Bilder von DALL-E-2 können über die Datensätze `base_for_feature_extraction.csv` sowie `fake_gpt3_all_finetunes_sent__dalle_tab.csv` abgerufen werden. Um das zu ermöglichen sind die Bilder im Ordner [02_Images/](02_Images/) gehostet. 
-- Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Restaurant,Hotel und  Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier] (01_Data/raw_data/cols_activities.txt) alle Spalten für gescrapte Aktivitäten. 
+- Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Restaurant,Hotel und  Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier](01_Data/raw_data/cols_activities.txt) alle Spalten der gescrapten Aktivitäten.
 - Es wurden mehrere Varianten von GPT3 Finetunes entwickelt und auf den Datensatz angewendet. Die hierfür benötigte Datensätze (inkl. Prompt und Prompt-Completions) sind unter [01_Data/finetuning/](01_Data/finetuning/) abgespeichert.
 - Die SHAP Graphiken sind im Ordner [02_Images/graphics](02_Images/graphics) abgelegt, 
 - Visualisierungen des Bild-Features (durch Aktive Maximierung-Technologie) in [02_Images/visualizations_image_features](02_Images/visualizations_image_features) 
-- Einige nicht direkt verwendete Dateien, die evtl. für zukünftige Untersuchungen relevant bleiben könnten, sind im Ordner
-- [09_outdated_archived_or_rejected_approaches] (09_outdated_archived_or_rejected_approaches) abgelegt. Darunter fallen auch Ansätze mit anderen Technologien (Stable Diffusion, GPT-2, GPT-3.5 Turbo, AutoTrain), die letztendlich nicht verwendet wurden. Außerdem ist dort ein [Datensatz multimodaler Amazon-Reviews](09_outdated_archived_or_rejected_approaches\amazon\dataset_amazon_reviews_v1.csv) abgelegt. Ergebnisse von Zwischenschritte sind teilweise ebenfalls dort abgelegt.
+- Einige nicht direkt verwendete Dateien, die evtl. für zukünftige Untersuchungen relevant bleiben könnten, sind im Ordner [09_outdated_archived_or_rejected_approaches](09_outdated_archived_or_rejected_approaches/) abgelegt. Darunter fallen auch Ansätze mit anderen Technologien (Stable Diffusion, GPT-2, GPT-3.5 Turbo, AutoTrain), die letztendlich nicht verwendet wurden. Außerdem ist dort ein gescrapter [Datensatz multimodaler Amazon-Reviews](09_outdated_archived_or_rejected_approaches/amazon/dataset_amazon_reviews_v1.csv) abgelegt. Ergebnisse von Zwischenschritte sind teilweise ebenfalls dort abgelegt. 
 - [comparison_finetune_variations_50sample.xlsx](01_Data\data_cleaned_processed\comparison_finetune_variations_50sample.xlsx) stellt einen übersichtlich für den Vergleich der Finetunes FT2-4dar (Anmerkung: FT3 in zwei Versionen, 3.2 auf Basis von 3.1 weitertrainiert)
   
 
 ## Ergebnisse :bar_chart:
 
-Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet sind in der folgenden Tabelle aufgelistet.
+Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet:
+
+<!-- ![heatmap](02_Images/graphics/heatmap_results.png) -->
+<img src="02_Images/graphics/heatmap_results.png" alt="heatmap" width="500">
 
 
 
-
-| Modalität(en)      | Model    | Accuracy | Precision | Recall | F1     | AUC    |
+<!-- | Modalität(en)      | Model    | Accuracy | Precision | Recall | F1     | AUC    |
 |--------------------|----------|----------|-----------|--------|--------|--------|
 | Unabhängig       | Coinflip | 0.4964   | 0.4966    | 0.5177 | 0.5069 | 0.4964   |
 | Text               | TabNet   | 0.5248   | 0.5235    | 0.5532 | 0.5379 | 0.5248 |
@@ -82,7 +83,7 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 | Text+Img | XGB | 0.8972 | 0.8944 | 0.9007 | 0.8975 | 0.8972 |
 |Tab+Text+Img | TabNet | 0.9326 | 0.9178 | 0.9504 | 0.9338 | 0.9326 |
 | Tab+Text+Img | RF | 0.8901 | 0.8986 | 0.8794 | 0.8889 | 0.8901 |
-| Tab+Text+Img | XGB | 0.9149 | 0.9149 | 0.9149 | 0.9149 | 0.9149 |
+| Tab+Text+Img | XGB | 0.9149 | 0.9149 | 0.9149 | 0.9149 | 0.9149 | -->
 
 
 ## Verständnis mit SHAP-Analyse :bulb:
@@ -90,27 +91,29 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. Einige davon sind hier aufgelistet: 
 
 
-**Text:**
+#####Text
+<img src="02_Images/graphics/shap_xgb_text.png" alt="Text Modalität" width="550">
 
-![Text Modalität](02_Images/graphics/shap_xgb_text.png)
 
-**Tabellarisch:** 
+#####Tabellarisch
+<img src="02_Images/graphics/shap_xgb_tab.png" alt="Tab Modalität" width="550">
 
-![Tab Modalität](02_Images/graphics/shap_xgb_tab.png)
 
 **Bild:**
-
-![Img Modalität](02_Images/graphics/shap_xgb_img0_10.png)
-
-**Kombination aus Tab + Text:**
-
-![Tab + Text  Modalität](02_Images/graphics/shap_xgb_tab_text.png)
-
-**Kombination aus Tab + Img:**
-
-![Tab + Img Modalität](02_Images/graphics/shap_xgb_tab_img0.png)
+<img src="02_Images/graphics/shap_xgb_img0_10.png" alt="Img Modalität" width="550">
 
 
-**Alle Modalitäten:**
+#####Kombination aus Tab + Text
 
-![Tab + Text + Img ](02_Images/graphics/shap_xgb_tab_text_img0.png)
+<img src="02_Images/graphics/shap_xgb_tab_text.png" alt="Tab + Text Modalität" width="550">
+
+
+#####Kombination aus Tab + Img
+
+<img src="02_Images/graphics/shap_xgb_tab_img0.png" alt="Tab + Img Modalität" width="550">
+
+
+
+#####Alle Modalitäten
+
+<img src="02_Images/graphics/shap_xgb_tab_text_img0.png" alt="Tab + Text + Img Modalität" width="550">
