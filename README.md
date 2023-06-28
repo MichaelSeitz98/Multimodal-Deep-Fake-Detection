@@ -105,30 +105,29 @@ https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604
 
 Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. Einige davon sind hier aufgelistet: 
 
-
-#####Text
+##### Text
 <img src="02_Images/graphics/shap_xgb_text.png" alt="Text Modalität" width="550">
 
 
-#####Tabellarisch
+##### Tabellarisch
 <img src="02_Images/graphics/shap_xgb_tab.png" alt="Tab Modalität" width="550">
 
 
-**Bild:**
+##### Bild
 <img src="02_Images/graphics/shap_xgb_img0_10.png" alt="Img Modalität" width="550">
 
 
-#####Kombination aus Tab + Text
+##### Kombination aus Tab + Text
 
 <img src="02_Images/graphics/shap_xgb_tab_text.png" alt="Tab + Text Modalität" width="550">
 
 
-#####Kombination aus Tab + Img
+##### Kombination aus Tab + Img
 
 <img src="02_Images/graphics/shap_xgb_tab_img0.png" alt="Tab + Img Modalität" width="550">
 
 
 
-#####Alle Modalitäten
+##### Alle Modalitäten
 
 <img src="02_Images/graphics/shap_xgb_tab_text_img0.png" alt="Tab + Text + Img Modalität" width="550">
