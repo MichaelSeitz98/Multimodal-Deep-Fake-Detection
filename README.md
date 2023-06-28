@@ -87,24 +87,22 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 | Tab+Text+Img | RF | 0.8901 | 0.8986 | 0.8794 | 0.8889 | 0.8901 |
 | Tab+Text+Img | XGB | 0.9149 | 0.9149 | 0.9149 | 0.9149 | 0.9149 | -->
 
+## Demo-Anwendung
+
+####Ein-Klick-Fake-Generator
 
 https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/00eb4200-eba1-42d5-b086-485601ced8e0
 
-
+**
+####Echt-Oder-Fake-Quiz
 
 https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/bb6971e4-5c6d-4eea-b120-074a44a80cf4
-
-
-
-
-
-## Demo-Anwendung
 
 <video src="02_Images/graphics/demo_quiz.mp4" controls autoplay>
   Your browser does not support the video tag.
 </video>
 
-<video src="02_Images/graphics/demo_one_click_generator.mp4" controls autoplay>
+<video src="02_Images/graphics/demo_one_click_deepfake_generator.mp4" controls autoplay>
   Your browser does not support the video tag.
 </video>
 
