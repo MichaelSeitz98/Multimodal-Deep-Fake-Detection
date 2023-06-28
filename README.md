@@ -2,7 +2,9 @@
 
 Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multimodaler Ansatz verfolgt, der auf verschiedenen Modalitäten wie Text, Bild und Metadaten basiert.
 
-![Artefakt Übersicht](02_Images/graphics/artefact_uebersicht_v4.jpg)
+**Architektur:**
+
+![Artefakt Übersicht](02_Images/graphics/artefact_uebersicht_v5.jpg)
 
 
 ## Wichtige Notebooks:notebook:
@@ -53,7 +55,7 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 
 ## Ergebnisse :bar_chart:
 
-Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet:
+Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet. 
 
 <!-- ![heatmap](02_Images/graphics/heatmap_results.png) -->
 <img src="02_Images/graphics/heatmap_results.png" alt="heatmap" width="500">
