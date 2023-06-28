@@ -92,14 +92,14 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 
 #### Ein-Klick-Fake-Generator
 
-<video src="02_Images/graphics/demo_one_click_deepfake_generator.mp4" controls autoplay width="480">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/86084324-511e-4c3c-bb54-ea7a77728bf2
 
 #### Echt-Oder-Fake-Quiz
-<video src="02_Images/graphics/demo_quiz.mp4" controls autoplay width="480">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/703b5b96-324c-422c-ad0c-f98f22c1a5af
+
+
 
 ## Verständnis mit SHAP-Analyse :bulb:
 
