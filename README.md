@@ -2,10 +2,10 @@
 
 Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multimodaler Ansatz verfolgt, der auf verschiedenen Modalitäten wie Text, Bild und Metadaten basiert.
 
-**Architektur:**
+## Architektur :construction::bulb:
 
 
-<img src="02_Images/graphics/artefact_uebersicht_v5.jpg" alt="it-artefakt" width="730">
+<img src="02_Images/graphics/artefact_uebersicht_v5.jpg" alt="it-artefakt" width="710">
 
 
 ## Wichtige Notebooks:notebook:
@@ -20,7 +20,7 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 5. `nb_generated_gpt3_finetune_datasets.ipynb`: In diesem Notebook werden verschiedene GPT3 Finetunes vorbereitet und dafür benötigte Datensätze erzeugt.
 
-6. `nb_frontend_optional_showcase.ipynb`: Hier für die Präsentation anhand einer prototypischen Frontend das Artefakt vorgestellt. Durch Auführen aller Zellen, kann die Frontendanwendung gestartet werden. Zum einen besteht diese aus einem Quiz: "Fake oder Echt", worin man testen kann ob man selbst erkennt ob es sich um eine Deepfake oder um eine echte Review handelt. Der zweite Teil der Frontend-Anwendung "Generierung mulitmodaler Deepfakes" verdeutlicht wie einfach multimodale Deepfakes mittels generativer KI erstellt werden können. Dies verdeutlich die (zukünftige) Relevanz von multimodalen Detektionsmethoden.
+6. `nb_frontend_showcase.ipynb`: Hier für die Präsentation anhand einer prototypischen Frontend das Artefakt vorgestellt. Durch Auführen aller Zellen, kann die Frontendanwendung gestartet werden. Zum einen besteht diese aus einem Quiz: "Fake oder Echt", worin man testen kann ob man selbst erkennt ob es sich um eine Deepfake oder um eine echte Review handelt. Der zweite Teil der Frontend-Anwendung "Generierung mulitmodaler Deepfakes" verdeutlicht wie einfach multimodale Deepfakes mittels generativer KI erstellt werden können. Dies verdeutlich die (zukünftige) Relevanz von multimodalen Detektionsmethoden.
 
 ## Wichtige Datensätze :file_folder:
 
@@ -45,7 +45,7 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 
 ## Weitere Informationen zur Handhabung :question:
 
-- Die künstlich generierten Bilder von DALL-E-2 können über die Datensätze `base_for_feature_extraction.csv` sowie `fake_gpt3_all_finetunes_sent__dalle_tab.csv` abgerufen werden. Um das zu ermöglichen sind die Bilder im Ordner [02_Images/](02_Images/) gehostet. 
+- Die künstlich generierten Bilder von DALL-E-2 können über die Datensätze `base_for_feature_extraction.csv` sowie `fake_gpt3_all_finetunes_sent__dalle_tab.csv` abgerufen werden. Um das zu ermöglichen sind die Bilder im Ordner [02_Images/](02_Images/) gehostet.
 - Die rohe Daten mit den unverarbeiteten Google Maps Reviews finden sich im Ordner [01_Data/raw_data](01_Data/raw_data/). Je nach Kategorie (Restaurant,Hotel und  Aktivität) findet sich auch eine Auflistung alle potenziell verfügbaren Spalten, z.B. [Hier](01_Data/raw_data/cols_activities.txt) alle Spalten der gescrapten Aktivitäten.
 - Es wurden mehrere Varianten von GPT3 Finetunes entwickelt und auf den Datensatz angewendet. Die hierfür benötigte Datensätze (inkl. Prompt und Prompt-Completions) sind unter [01_Data/finetuning/](01_Data/finetuning/) abgespeichert.
 - Die SHAP Graphiken sind im Ordner [02_Images/graphics](02_Images/graphics) abgelegt, 
@@ -88,14 +88,17 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 | Tab+Text+Img | RF | 0.8901 | 0.8986 | 0.8794 | 0.8889 | 0.8901 |
 | Tab+Text+Img | XGB | 0.9149 | 0.9149 | 0.9149 | 0.9149 | 0.9149 | -->
 
-## Demo-Anwendung
+## Demo-Anwendung :man_technologist:
 
-#### Ein-Klick-Fake-Generator
+Zum Starten der Demoanwendung: Alle Zellen des Notebooks `nb_frontend_showcase.ipynb` ausführen. Für den "Ein-Klick-Deepfake-Generator" noch den eignen OpenAI-Key reinladen.
 
+##### Ein-Klick-Fake-Generator
 
 https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/86084324-511e-4c3c-bb54-ea7a77728bf2
 
-#### Echt-Oder-Fake-Quiz
+*Demo-Anwendung zeigt nicht das finegetunte Modell, welches für die Textgenerieung verwendet wurde, sondern ein abgewandeltere Finetune davon. 
+
+##### Echt-oder-Fake-Quiz
 
 https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/703b5b96-324c-422c-ad0c-f98f22c1a5af
 
