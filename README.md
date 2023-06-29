@@ -1,6 +1,6 @@
 # Erzeugung und Detektion multimodaler Deepfakes bei Online Rezensionen
 
-Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multimodaler Ansatz verfolgt, der auf verschiedenen Modalitäten wie Text, Bild und Metadaten basiert.
+Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen (Fake-Reviews) auf Online-Plattformen. Hierbei wird ein multimodaler Ansatz verfolgt, der auf den verschiedenen Datenmodalitäten Text, Bild und tabellarische Metadaten basiert.
 
 ## Architektur :construction::bulb:
 
@@ -24,15 +24,15 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 
 ## Wichtige Datensätze :file_folder:
 
-Die bedeutenden Datensätze sind im Order abgelegt [01_Data/data_cleaned_processed/] (01_Data/data_cleaned_processed/) abgelegt. Die rohe (und leicht vorverarbeitete) Datensätz unter [01_Data/raw_data/] (01_Data/raw_Data/). Für die Finetunes verwendeten Datensätze sind in [01_Data/gpt3_finetunes](01_Data/gpt3_finetunes/) abgelegt. 
+Die bedeutenden Datensätze sind im Order abgelegt [01_Data/data_cleaned_processed/](01_Data/data_cleaned_processed/) abgelegt. Die rohe (und leicht vorverarbeitete) Datensätz unter [01_Data/raw_data/](01_Data/raw_Data/). Für die Finetunes verwendeten Datensätze sind in [01_Data/gpt3_finetunes](01_Data/gpt3_finetunes/) abgelegt. 
 
 1.  `real_base_sent_reduced.csv`: enthält Informationen von 704 echten multimodalen (Text, Bild, Metainformationen) echten Google Maps Reviews, zufällig ausgewählt aus über ca. 9000 multimodalen Reviews von  `l.01_Data\raw_data\dataset_weitere_forschung_relCols.csv` Der Datensatz wurde schon auf wesentliche Spalten reduziert und wird im Notebook `nb_generate_dataset.ipynb` generiert.
 
 2. `fake_gpt3_all_finetunes_sent__dalle_tab.csv`: bildet die Fake-Reviews ab, alle Modalitäten mit unterschiedlichen Technologien erzeugt und als Spalte angehängt (GPT3 Finetune, DALL-E-2, CTGAN und Faker genutzt). Wird in  Notebook  `nb_generate_deepfakes.ipynb` erzeugt. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Hier sind auch die Ergebnisse der verschiendeenen Finetune-Varianten enthalten. 
 
-3.  `base_for_feature_extraction.csv`: bildet den **zusammengesetzten Datensatz** aus 704 multimodalen Fakes und 704 Echten Reviews ab, mit URL zu den echten und gefakten Bildern, als Grundlage für Feature Extraction und letztendlich auch Detektion. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Als Text wird hier anhand der Finetune-Variante FT v4 verwendet. 
+3.  `base_for_feature_extraction.csv`: bildet den **zusammengesetzten Datensatz** aus 704 multimodalen Fakes und 704 Echten Reviews ab, mit URL zu den echten und gefakten Bildern. Ist Grundlage für Feature Extraction und Detektion. Darüber lässt sich auch auf die künstliche genierten Bilder zugreifen. Als Text wird dazu die Finetune-Variante FT v4 verwendet.
 
-4. `features_enriched_tab_img_text.csv`: ist mit den extrahierten Features aller Modalitäten angereichert, wird im Notebook `nb_feature_extraction.ipynb` erstellt. Nach einigen kleineren preprocessing Schritten nochmals in Form von `features_enriched_tab_img_text_preproc.csv` abgespeichert. Bildet die Basis für den Data Split bzw. die Detektion. 
+4. `features_enriched_tab_img_text.csv`: ist mit den extrahierten Features aller Modalitäten angereichert. Wird im Notebook `nb_feature_extraction.ipynb` erstellt. Nach einigen kleineren preprocessing Schritten nochmals in Form von `features_enriched_tab_img_text_preproc.csv` abgespeichert. Bildet die Basis für den Data Split bzw. die Detektion.
 
 5. Datensätze für den Data Split:
 - `detection_train.csv`
@@ -56,7 +56,7 @@ Es ist wichtig, dass alle Modelle und alle Modalitäten immer auf den gleichen D
 
 ## Ergebnisse :bar_chart:
 
-Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet. 
+Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten und der drei verwendeten ML-Methoden XGBoost, Random Forest und TabNet:
 
 <!-- ![heatmap](02_Images/graphics/heatmap_results.png) -->
 <img src="02_Images/graphics/heatmap_results.png" alt="heatmap" width="500">
@@ -96,7 +96,7 @@ Zum Starten der Demoanwendung: Alle Zellen des Notebooks `nb_frontend_showcase.i
 
 https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/86084324-511e-4c3c-bb54-ea7a77728bf2
 
-*Demo-Anwendung zeigt **nicht** das finegetunte Modell, welches tatsächlich für die Textgenerieung des Datensatzes verwendet wurde, sondern ein abgewandeltere Finetune davon.
+*Demo-Anwendung zeigt **nicht** das finegetunte Modell, welches tatsächlich für die Textgenerieung des Datensatzes verwendet wurde, sondern ein abgewandelte Finetuning-Version davon.
 
 ##### Echt-oder-Fake-Quiz
 
@@ -106,7 +106,7 @@ https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604
 
 ## Verständnis mit SHAP-Analyse :bulb:
 
-Für eine detaillierte Analyse wurde für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren die Features analysiert. Einige davon sind hier aufgelistet: 
+Für eine detaillierte Analyse wurden die Features für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren analysiert. Einige Plots sind hier aufgelistet:
 
 ##### Text
 <img src="02_Images/graphics/shap_xgb_text.png" alt="Text Modalität" width="550">
