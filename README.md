@@ -96,7 +96,7 @@ Zum Starten der Demoanwendung: Alle Zellen des Notebooks `nb_frontend_showcase.i
 
 https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/86084324-511e-4c3c-bb54-ea7a77728bf2
 
-*Demo-Anwendung zeigt nicht das finegetunte Modell, welches für die Textgenerieung verwendet wurde, sondern ein abgewandeltere Finetune davon. 
+*Demo-Anwendung zeigt **nicht** das finegetunte Modell, welches tatsächlich für die Textgenerieung des Datensatzes verwendet wurde, sondern ein abgewandeltere Finetune davon.
 
 ##### Echt-oder-Fake-Quiz
 
