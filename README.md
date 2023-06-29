@@ -92,11 +92,11 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 
 Zum Starten der Demoanwendung: Alle Zellen des Notebooks `nb_frontend_showcase.ipynb` ausführen. Für den "Ein-Klick-Deepfake-Generator" noch den eignen OpenAI-Key reinladen.
 
-##### Ein-Klick-Fake-Generator
+##### Ein-Klick-Deepfake-Generator
 
-https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/86084324-511e-4c3c-bb54-ea7a77728bf2
+https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604/05069901-5ee3-491e-bd89-1f643bbe6dab
 
-*Demo-Anwendung zeigt **nicht** das finegetunte Modell, welches tatsächlich für die Textgenerieung des Datensatzes verwendet wurde, sondern ein abgewandeltere Finetune davon.
+*Demo-Anwendung zeigt **nicht** das finegetunte Modell, welches tatsächlich für die Textgenerieung des Datensatzes verwendet wurde, sondern ein abgewandelter, weniger trainierter Finetune davon.
 
 ##### Echt-oder-Fake-Quiz
 
