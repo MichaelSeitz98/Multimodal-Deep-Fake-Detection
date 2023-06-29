@@ -8,4 +8,4 @@
 apikey_*
 01_Data/raw_data/dataset_weitere_forschung.csv
 01_Data/raw_data/dataset_Google*.csv
-.vscode
+.vscode/*
