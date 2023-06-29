@@ -90,7 +90,7 @@ Die Ergebnisse der vergleichenden Untersuchung in Abhängigkeit der Modalitäten
 
 ## Demo-Anwendung :man_technologist:
 
-Zum Starten der Demoanwendung: Alle Zellen des Notebooks `nb_frontend_showcase.ipynb` ausführen. Für den "Ein-Klick-Deepfake-Generator" noch den eignen OpenAI-Key reinladen.
+Zum Starten der Demoanwendung: Alle Zellen des Notebooks `nb_frontend_showcase.ipynb` ausführen. Für den "Ein-Klick-Deepfake-Generator" noch den eigenen OpenAI-Key reinladen.
 
 ##### Ein-Klick-Deepfake-Generator
 
@@ -104,7 +104,7 @@ https://github.com/MichaelSeitz98/seminararbeit_review_detection/assets/65539604
 
 
 
-## Verständnis mit SHAP-Analyse :bulb:
+## Erklärbare Vorhersagen mit SHAP-Analyse :bulb:
 
 Für eine detaillierte Analyse wurden die Features für jede Modalität und Modalitätskombination mittels SHAP am Beispiel des XGBoost-Verfahren analysiert. Einige Plots sind hier aufgelistet:
 
