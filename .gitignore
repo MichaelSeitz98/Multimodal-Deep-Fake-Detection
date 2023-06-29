@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 01_Data/raw_data/*.csv
->>>>>>> c97afbc819aff93591fa54a16d675c343dc691ad
 09_backup_archiv/*.xlsx
 09_backup_archiv/*.csv
 09_backup_archiv/*.txt
@@ -11,3 +8,4 @@
 apikey_*
 01_Data/raw_data/dataset_weitere_forschung.csv
 01_Data/raw_data/dataset_Google*.csv
+.vscode
