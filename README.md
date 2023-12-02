@@ -8,7 +8,7 @@ Dieses Projekt beschäftigt sich mit der Erkennung von gefälschten Bewertungen 
 <img src="02_Images/graphics/artefact_uebersicht_v5.jpg" alt="it-artefakt" width="710">
 
 
-## Wichtige Notebooks:notebook:
+## Wichtige Notebooks :notebook:
 
 1. `nb_generate_dataset.ipynb`: In diesem Notebook werden relevante Informationen aus den Daten extrahiert, verarbeiten, Daten herausgefiltert. Als Resultat wird der  Basissätze `real_base_sent_reduced.csv` generiert. 
 
